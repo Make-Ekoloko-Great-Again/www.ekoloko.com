@@ -1,0 +1,46 @@
+<items>
+  <item>
+    <key>newbie_pop_goto_newbie</key>
+    <value>Thanks</value>
+  </item>
+  <item>
+    <key>newbie_pop_title</key>
+    <value>Welcome to ekoloko</value>
+  </item>
+  <item>
+    <key>newbie_pop_text</key>
+    <value>Newcomers are invited to a Training Server where special activites, tips and kids are waiting to show you around</value>
+  </item>
+  <item>
+    <key>newbie_pop_goto_selected</key>
+    <value>No thanks</value>
+  </item>
+  <item>
+    <key>no_newbie_pop_close</key>
+    <value>Close</value>
+  </item>
+  <item>
+    <key>no_newbie_pop_title</key>
+    <value>This is a training server</value>
+  </item>
+  <item>
+    <key>no_newbie_pop_text</key>
+    <value>This server is dedicated to newcomers</value>
+  </item>
+  <item>
+    <key>premiuim_pop_close_but</key>
+    <value>No Thanks</value>
+  </item>
+  <item>
+    <key>premiuim_pop_store_but</key>
+    <value>Close</value>
+  </item>
+  <item>
+    <key>premiuim_pop_title</key>
+    <value><![CDATA[Oops! No more room!]]></value>
+  </item>
+  <item>
+    <key>premium_pop_text</key>
+    <value><![CDATA[The server you have chosen is nearly full and the remaining places are reserved for Pioneers. Please choose a different server and enjoy the greatest adventure in the world!]]></value>
+  </item>
+</items>

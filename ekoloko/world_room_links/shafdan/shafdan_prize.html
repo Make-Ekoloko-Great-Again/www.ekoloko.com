@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ekoloko.com</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+<SCRIPT LANUAGE="JavaScript 1.2">
+
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+var swfUrl = 'shafdan_landing_prize?refCode='+getParameter('refCode');
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #46a12a;
+}
+-->
+</style></head>
+<body topmargin="0" marginwidth="0" >
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+  <td width="90" background="images/left.jpg">  </td>
+    <td>
+      <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '600',
+    			'src', swfUrl,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'linkme',
+    			'bgcolor', '#FFFFFF',
+    			'name', 'Landing',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', swfUrl,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+    <td width="150" background="images/right2.jpg">    </td>
+  </tr>
+</table>
+
+
+</body>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4992646-2");
+pageTracker._trackPageview();
+</script>
+</html>

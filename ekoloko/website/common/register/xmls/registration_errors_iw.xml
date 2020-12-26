@@ -1,0 +1,86 @@
+﻿<items>
+  <item>
+    <label>type_user_name</label>
+    <data>ביחרו שם משתמש באקולוקו והקלידו בחלון המתאים</data>
+  </item>
+  <item>
+    <label>username_length</label>
+    <data>שם המשתמש שלכם באקולוקו צריך להיות בין שישה ל שניים עשר תווים</data>
+  </item>
+  <item>
+    <label>too_many_digits_username</label>
+    <data>אין להכניס יותר מ ארבע ספרות בשם המשתמש שלכם באקולוקו</data>
+  </item>
+  <item>
+    <label>type_password</label>
+    <data>עליכם לבחור סיסמא ולהקליד אותה בחלון המתאים</data>
+  </item>
+  <item>
+    <label>password_length</label>
+    <data>הסיסמא שלכם חייבת להכיל בין שישה ל שניים עשר אותיות ומספרים</data>
+  </item>    
+  <item>
+    <label>password_contains_username</label>
+    <data>בכדי לשמור על השחקן שלכם הסיסמא אינה יכולה להכיל את שם המשתמש</data>
+  </item>
+  <item>
+    <label>password_non_alphanumeric</label>
+    <data>בכדי לשמור על השחקן שלכם על הסיסמא להכיל גם אותיות וגם מספרים</data>
+  </item>
+  <item>
+    <label>no_confirmed_password</label>
+    <data>הקלידו את הסיסמא שבחרתם גם בחלון אישור הסיסמא</data>
+  </item>
+  <item>
+    <label>pass_dont_match</label>
+    <data>הכניסו מחדש את הסיסמא בחלון אישור הסיסמא  הקפידו לדייק</data>
+  </item>  
+  <item>
+    <label>no_email</label>
+    <data>הקלידו את כתובת המייל שלכם או של ההורים בחלונית המסומנת</data>
+  </item>
+  <item>
+    <label>bad_email</label>
+    <data>כתובת האימייל שהקלדתם, שגוייה</data>
+  </item>
+  <item>
+    <label>no_parent_email</label>
+    <data>נא להקליד כתובת אימייל של אחד ההורים</data>
+  </item>
+  <item>
+    <label>bad_parent_email</label>
+    <data>כתובת האימייל של ההורים שגויה</data>
+  </item>
+  <item>
+    <label>incorrect_authentication</label>
+    <data>קוד האישור שהוקלד שגוי נא הקלידו את המספר בן חמש הספרות שמימין לתיבה</data>
+  </item>  
+  <item>
+    <label>no_terms_conditions</label>
+    <data>עליכם להסכים לתנאי השימוש באתר בכדי להשלים את ההרשמה</data>
+  </item>
+  <item>
+    <label>username_exists</label>
+    <data>שם משתמש קיים נא להקליד שם אחר</data>
+  </item>  
+  <item>
+    <label>username_bas_words</label>
+    <data>שם המשתמש שבחרתם מכיל מילים אסורות באקולוקו</data>
+  </item>       
+  <item>
+    <label>year</label>
+    <data>שנה</data>
+  </item>     
+  <item>
+    <label>month</label>
+    <data>חודש</data>
+  </item>
+  <item>
+    <label>day</label>
+    <data>יום</data>
+  </item>                    
+  <item>
+    <label>no_valid_birth_date</label>
+    <data>נא לסמן את תאריך יום  ההולדת שלכם  מי יודע? אולי תקבלו מתנה</data>
+  </item>            
+</items>

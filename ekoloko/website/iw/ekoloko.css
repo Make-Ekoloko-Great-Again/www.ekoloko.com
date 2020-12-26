@@ -1,0 +1,85 @@
+@charset "utf-8";
+body {
+	background-color: #abd93f;
+	background-image: url(../common/images/bg_ext.jpg);
+	background-repeat: repeat-x;
+}
+.images {
+	border:1px solid #a7b793;	
+}
+.Title {
+	font-size:24px;
+	color: #18384f;
+	font-weight:bold;
+	font-family:Arial;
+}
+.BodyText {
+	font-size:15px;
+	font-family:Arial;
+	color: #18384f;
+}
+.FAQTitle {
+	font-size:17px;
+	font-weight:bold;
+	font-family:Arial;
+	color: #18384f;
+}
+.faqQuestions:link {
+	text-decoration:none;
+	color:#18384f;
+	font-weight:bold;
+	line-height: 16px;
+	font-family:Arial;
+}
+.faqQuestions:visited {
+	text-decoration:none;
+	color:#18384f;
+	font-weight:bold;
+	line-height: 16px;
+	font-family:Arial;
+}
+.faqQuestions:hover {
+	text-decoration:none;
+	color:#a7b793;
+	font-weight:bold;
+	line-height: 16px;
+	font-family:Arial;
+}
+.faqQuestions:active {
+	text-decoration:none;
+	color:#a7b793;
+	font-weight:bold;
+	line-height: 16px;
+	font-family:Arial;
+}
+.footerLinks:link {
+	text-decoration:none;
+	color: #FFFFFF;
+	font-style:oblique;
+	font-family:Arial;
+}
+.footerLinks:visited {
+	text-decoration:none;
+	color: #FFFFFF;
+	font-style:oblique;
+	font-family:Arial;
+}
+.footerLinks:hover {
+	text-decoration:underline;
+	color: #FFFFFF;
+	font-style:oblique;
+	font-family:Arial;
+}
+.footerLinks:active {
+	text-decoration:underline;
+	color: #FFFFFF;
+	font-style:oblique;
+	font-family:Arial;
+}
+.footerText {
+	color: #FFFFFF;
+	font-style:oblique;
+	font-family:Arial;
+}
+/* CSS Document */
+

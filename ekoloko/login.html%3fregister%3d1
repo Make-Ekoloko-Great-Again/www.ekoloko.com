@@ -1,0 +1,356 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="KeyWords" content=" Virtual,m2,tweens, world, virtual world, green, games, game, flash, recycling, rrr ,RRR, community, mmo ,mmo games, ekoloko, educational, fun, adventures, quests, safe, under 13, young, tweens, avatar, toys, values, עולם וירטואלי, עולם, וירטואלי, ירוק, ילדים, משחקים, משחקים לילדים, אווטאר, נדירים, פלאש, מחזור, מיחזור, איכותי,צעצועים,חינוכי,כיף,הרפתקה,משימות,קווסטים,חברים,בטוח לילדים,עד גיל 13,מתחת גיל 13,צעירים,קטנים,צעצועים,קהילה אקולוקו, משחק ">
+
+
+
+<title>ekoloko.com</title>
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+if(document.URL.indexOf('ekoloko.mako.', 0) >= 0) {
+  var url = "http://www.ekoloko.com/ekoloko/login.html";
+  url = addUrlParam("language", url);       
+  url = addUrlParam("username", url);       
+  url = addUrlParam("friend", url);       
+  url = addUrlParam("refCode", url);       
+  url = addUrlParam("directLogin", url);      
+  document.location.replace(url);
+}
+
+
+function popUp(URL) {
+	var open_link = window.open('','_blank');
+	open_link.location=URL;
+	//window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function getVersion() {
+	return Math.random();
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+
+var swfUrl = 'shell?version='+getVersion()
+swfUrl = addUrlParam("register", swfUrl);       
+swfUrl = addUrlParam("language", swfUrl);       
+swfUrl = addUrlParam("username", swfUrl);       
+swfUrl = addUrlParam("directLogin", swfUrl);       
+swfUrl = addUrlParam("advisor", swfUrl);
+swfUrl = addUrlParam("friend", swfUrl);
+swfUrl = addUrlParam("refCode", swfUrl);
+
+function createOnUnloadFunction() {
+  window.onbeforeunload = exitConfirmation;  
+}
+
+function exitConfirmation(e) {
+
+}          
+
+
+function loadBanner(bannerId, url) { 
+   bannerLoaded = true;
+   var iframe = getBannerIframe(bannerId);
+   if(iframe != null) {
+      iframe.src = url;
+   }
+}
+
+function getBannerIframe(bannerId) {
+  var td = document.getElementById(bannerId+"TD");
+  if(td) {
+    var iframe = document.getElementById("banner"+bannerId);
+    if(!iframe) {
+      iframe = document.createElement('iframe');
+      iframe.width = (bannerId=="top"||bannerId=="bottom")?960:180;
+      iframe.height = (bannerId=="top"||bannerId=="bottom")?120:600;
+      iframe.border = "0";
+      iframe.frameBorder = "0";
+      iframe.scrolling = "no";
+      iframe.id = "banner"+bannerId;
+      
+      td.appendChild(iframe);            
+    }
+    return iframe;
+  }
+  return null;
+}
+
+var adsHorizontalUrl = [/*"./adsenseHorizontal_180.html","./adsenseHorizontal_200.html",*/"./adsenseHorizontal_728.html"];
+var adsLeftUrl = "./adsenseLeft.html";
+var adsLeftRightUrl = "./adsenseLeftRight.html";
+var adsRightUrl = "./adsenseRight.html";
+var adsRightLeftUrl = "./adsenseRightLeft.html";
+var noAdsRightUrl = "./adsenseEmpty.html";
+var maxad = 99999;//60 + Math.floor((Math.random() * 90));
+var adnum = 0;
+var bannerLoaded = false;
+
+function hideAds() {
+  var adsTable = document.getElementById("adBanners");
+  if(adsTable) {
+    adsTable.style.display="none";
+  }
+}
+
+function setAdds(visible) {                
+  var adsTable = document.getElementById("adBanners");
+  if(adsTable) {
+    adsTable.style.display="none";
+    try{
+      adsTable.innerHTML = "";
+    } catch(e) {}
+  }
+  if(visible==0) {
+    adsHorizontalUrl = null;
+  } else {
+    refreshAdsenseFrame();
+  }
+}
+
+function refreshAdsenseFrame() {
+  adnum ++;
+  if(adnum < maxad)  {
+    var adsFrame = document.getElementById("adBannersFrame");
+    var adsLeftFrame = getBannerIframe("left");
+    var adsRightFrame = getBannerIframe("right");
+    if(adsHorizontalUrl != null) {
+      if(adsFrame || adsLeftFrame) {
+        var interval = 75+Math.floor(Math.random() * 75);
+        setTimeout(function(){refreshAdsenseFrame();},(interval*1000));
+        if(adsFrame) {
+          var hUrl = adsHorizontalUrl[Math.floor(Math.random()*adsHorizontalUrl.length)];
+          adsFrame.src = hUrl+"?language="+lang+"&v="+Math.random();      
+        } 
+        if(adsLeftFrame) {
+          adsLeftFrame.src = ((bannerLoaded || adnum>4)?adsLeftRightUrl:adsLeftUrl)+"?language="+lang+"&v="+Math.random();          
+        }
+        if(adsRightFrame) {
+          adsRightFrame.src = ((bannerLoaded || adnum>4)?adsRightLeftUrl:adsRightUrl)+"?language="+lang+"&v="+Math.random();          
+        }        
+        /*if(!document.getElementById("rightTD").src) {
+          var adsRightFrame = getBannerIframe("right");
+          adsRightFrame.src = noAdsRightUrl;    
+        } */
+      } 
+    }
+  }
+}
+
+//IMA3 functions
+function removeAdSwf() {
+  removeVideoAd();
+}
+
+function noAdsReturned() {
+  removeVideoAd();
+}
+
+function getFlashMovieObject(movieName){
+	if (window.document[movieName]){
+		return window.document[movieName];
+	}
+	if (navigator.appName.indexOf("Microsoft Internet")==-1){
+		if (document.embeds && document.embeds[movieName])
+			return document.embeds[movieName];
+	}
+	
+	return document.getElementById(movieName);
+  	
+}
+  
+function removeVideoAd() {       
+  var flash = getFlashMovieObject("shell");
+  if(!flash.removeAd) {                     
+    flash = getFlashMovieObject("shell");
+  }
+  // call action script function
+  flash.removeAd();
+}
+
+
+//Set default language
+var lang = getParameter('language');
+if (!lang || lang == "null") lang = "iw"; 
+
+function sendGoogleActionRequest(module, activity, label) {
+  if(label==null || label==undefined || label == "null" || label =="undefined") label="";
+	_vtq._trackEvent(module, activity, ""+label);
+}
+
+ 
+</script> 
+<link href="website/iw/ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#AAD93D" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-image:none" onLoad="">
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td></td>
+<td id="topTD"></td>
+<td></td>
+</tr>
+<tr>
+<td id="leftTD"></td>
+<td>
+<div align="center" id="mainSWFDIV">
+  <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,45,2',
+    			'width', '960',
+    			'height', '600',
+    			'src', swfUrl,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'direct',
+    			'devicefont', 'false',
+    			'id', 'shell',
+    			'bgcolor', '#AAD93D',
+    			'name', 'shell',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','always',
+    			'movie', swfUrl,
+    			'salign', '',
+    			'id', 'shell'
+    			); //end AC code
+    	}
+  </script>
+</div>
+</td>
+
+<td id="rightTD"></td>
+</tr> 
+<tr>
+<td></td>
+<td id="bottomTD"></td>
+<td></td>
+</tr>
+</table>
+     
+</div>
+
+<div id="footer_iw" align="center">
+<span  class="footerText" dir="rtl"><a href="website/iw/Parents_About.html" class="footerLinks">אודות החברה</a>  |  <a href="javascript:popUp('website/iw/Terms.html')" class="footerLinks">תנאי שימוש</a>  |  <a href="javascript:popUp('website/iw/Privacy.html')" class="footerLinks">פרטיות</a>  |  <a href="website/iw/Help_Contact.html" class="footerLinks">צור קשר</a>  |   <a href="website/iw/Site_Map.html" class="footerLinks">מפת האתר</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2014 Virtual Tweens Ltd.</span>
+<br>
+</div>  
+<div id="footer_en" align="center" style="position:relative; top:-40px">
+<span  class="footerText"><a href="website/en/Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('website/en/Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('website/en/Privacy.html')" class="footerLinks">Privacy Policy</a>  |  <a href="website/en/Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="website/en/Site_Map.html" class="footerLinks">Site map</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2014 Virtual Tweens Ltd.</span>
+</div>
+<div id="footer_uk" align="center" style="position:relative; top:-80px">
+<span  class="footerText"><a href="website/uk/Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('website/uk/Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('website/uk/Privacy.html')" class="footerLinks">Privacy Policy</a>  |  <a href="website/uk/Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="website/uk/Site_Map.html" class="footerLinks">Site map</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2014 Virtual Tweens Ltd.</span>
+</div>
+<div id="footer_fr" align="center" style="position:relative; top:-120px">
+<span  class="footerText"><a href="website/fr/Parents_About.html" class="footerLinks">Société</a>  |  <a href="javascript:popUp('website/fr/Terms.html')" class="footerLinks">Conditions d'utilisation</a>  |  <a href="javascript:popUp('website/fr/Privacy.html')" class="footerLinks">Protection des données</a>  |  <a href="website/fr/Help_Contact.html" class="footerLinks">Contactez nous</a>  |   <a href="website/fr/Site_Map.html" class="footerLinks">Plan du site</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2014 Virtual Tweens Ltd.</span>
+</div>
+<div id="footer_us" align="center" style="position:relative; top:-160px">
+<span  class="footerText"><a href="website/us/Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('website/us/Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('website/us/Privacy.html')" class="footerLinks" style="color:#333333">Privacy Policy</a>  |  <a href="website/us/Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="website/us/Site_Map.html" class="footerLinks">Site map</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2014 Virtual Tweens Ltd.</span>
+</div>   
+<script>
+  var languages = ["iw", "en", "fr", "uk", "us"];
+	
+  function showFooter(language) {   
+    for (var langIndex in languages) {
+      var currLang = languages[langIndex];
+      var image = document.getElementById('footer_'+currLang);
+      if(image != undefined) {
+        if(currLang == language) {
+  		    image.style.visibility = 'visible'; 
+  		  } else {
+    	    image.style.visibility = 'hidden'; 
+        }
+      }
+    }
+  }
+  
+  function hideFooter() {
+    showFooter("");
+  }
+  
+  showFooter(lang);
+
+
+
+</script>
+ 
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+    	_vtq = _gat._createTracker('UA-4992646-7', "__vtq");
+  } catch(err) {}
+</script>
+
+
+<script>
+showFooter(lang);
+</script>
+<table id="adBanners" border="0" cellpadding="0" cellspacing="0" height="160px" align="center" style="position:relative; top:-150px">
+  <tr>
+    <td id="bottomAdsLeftPadding"></td> 
+    <td align="center" height="100%" width="100%">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 728X90-1 -->
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:728px;height:90px"
+           data-ad-client="ca-pub-5667630990546164"
+           data-ad-slot="3488273138"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </td>     
+    <td id="bottomAdsRightPadding"></td>
+  </tr>
+</table>
+<iframe id="adBannersFrame" border="0" src="./noadsense.html" style="position:relative; top:-180px" align="center" width="100%"" height="400px" frameBorder="0">
+</iframe>
+
+</body>
+</html>

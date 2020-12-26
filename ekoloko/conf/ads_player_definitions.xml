@@ -1,0 +1,24 @@
+<data>
+  <minDaysPlayed days="3"/>
+  <idletime premium="0" volume="1" percentComplete="1.0" maxComplete="500" backstage="0" showSkip="1" startsAfter="180" minInterval="120" maxInterval="180"> 
+    <adlink><![CDATA[http://googleads.g.doubleclick.net/pagead/ads?ad_type=video_image_text_flash&client=ca-games-pub-5667630990546164&videoad_start_delay=0&description_url=http%3A%2F%2Fekoloko.com%2F&hl=en&max_ad_duration=30000]]></adlink>
+ 	</idletime>
+	<backstage premium="0" volume="1" percentComplete="0" maxComplete="0" minInterval="0" maxInterval="0">
+ 	  <adlink><![CDATA[http://googleads.g.doubleclick.net/pagead/ads?ad_type=video_image_text_flash&client=ca-games-pub-5667630990546164&videoad_start_delay=0&description_url=http%3A%2F%2Fekoloko.com%2F&hl=en&max_ad_duration=30000]]></adlink>
+	</backstage>
+	<skippble premium="0" volume="1" maxComplete="1000" percentOnGames="1" timeToShowSkip="4">
+    <adlink><![CDATA[http://googleads.g.doubleclick.net/pagead/ads?ad_type=video_image_text_flash&client=ca-games-pub-5667630990546164&videoad_start_delay=0&description_url=http%3A%2F%2Fekoloko.com%2F&hl=en&max_ad_duration=30000]]></adlink>
+	</skippble>
+  <rooms>
+    <skippble roomId="874" volume="1" premium="0" maxComplete="1000" timeToShowSkip="5">
+      <adlink><![CDATA[http://googleads.g.doubleclick.net/pagead/ads?ad_type=video_image_text_flash&client=ca-games-pub-5667630990546164&videoad_start_delay=0&description_url=http%3A%2F%2Fekoloko.com%2F&hl=en&max_ad_duration=30000]]></adlink>    </skippble>
+    <skippble roomId="875" volume="1" premium="0" maxComplete="1000" timeToShowSkip="5">
+      <adlink><![CDATA[http://googleads.g.doubleclick.net/pagead/ads?ad_type=video_image_text_flash&client=ca-games-pub-5667630990546164&videoad_start_delay=0&description_url=http%3A%2F%2Fekoloko.com%2F&hl=en&max_ad_duration=30000]]></adlink>
+	  </skippble>	  
+  </rooms>
+  <adlink><![CDATA[http://googleads.g.doubleclick.net/pagead/ads?ad_type=video_image_text_flash&client=ca-video-pub-4968145218643279&videoad_start_delay=0&description_url=http%3A%2F%2Fwww.ekoloko.com&hl=en&max_ad_duration=40000&adtest=on]]></adlink>  
+  <adlink><![CDATA[http://googleads.g.doubleclick.net/pagead/ads?ad_type=video_image_text_flash&client=ca-games-pub-5667630990546164&videoad_start_delay=0&description_url=http%3A%2F%2Fekoloko.com%2F&hl=en&max_ad_duration=30000]]></adlink>
+  <adlink><![CDATA[http://googleads.g.doubleclick.net/pagead/ads?ad_type=video&client=ca-games-pub-5667630990546164&videoad_start_delay=0&description_url=http%3A%2F%2Fekoloko.com%2F&hl=en&max_ad_duration=30000]]></adlink>
+    
+</data>
+	

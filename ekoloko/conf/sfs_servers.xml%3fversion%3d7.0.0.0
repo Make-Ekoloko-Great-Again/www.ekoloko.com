@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <isBig display="big"></isBig>
+  <servers>
+  	<server>
+  		<ip>173.231.140.82</ip>
+  		<port>443</port>
+  		<bb_ip>173.231.140.82</bb_ip>
+  		<bb_port>8080</bb_port>                 
+  		<channels>
+  			<channel isFull="no" fr="Pràde Heathcliff" en="Heathcliff's Meadow" iw="האחו של הית'קליף" state="on">1</channel>
+  			<channel fr="Chutes de Dolphinfin" en="Dolphinfin's Falls" iw="מפל דולפינפין" state="on">1</channel>
+  			<channel fr="Arbre de Guakamayo" en="Guakamayo's Tree" iw="העץ של גוואקאמיו" state="off">3</channel>
+       	<channel fr="Pont de la Shaman" en="The Shaman's Bridge" iw="גשר השאמאנית" state="off">4</channel>
+  			<channel fr="Cour de jeu de Didier" en="Didier's Playground" iw="המגרש של דידה" state="off">5</channel>
+  			<channel fr="For?t de Bongo" en="Bongo's Forest Band" iw="מוזיקת היער של בונגו" state="off">6</channel>
+  		  <channel fr="Oasis dAssraff" en="Asraff's Oasis" iw="נווה המדבר של אסרף" state="off">7</channel>
+  			<channel fr="Gare de Honky" en="Honky's Railway" iw="המסילה של הונקי" state="off">8</channel>
+  			<!--<channel fr="Mine du Grand John" en="Big John's Coal Mine" iw="המכרה של ג'ון" state="off">9</channel>  			
+  			<channel fr="Dune de Tonnerre" en="Thunder's Dune" iw="הדיונה של ט'אנדר" state="off">10</channel>
+  			<channel fr="Ferme de Kat" en="Kat's Desert Farm" iw="החווה של קאט" isNewbie="no" state="off">11</channel>
+  			<channel fr="Tani?re de G. Monster" en="Gila Monster's Lair" iw="המאורה של גילה" isNewbie="no" state="off">12</channel>
+  			
+  			<channel fr="Vigie de Filon" en="Bonanza's Watch" iw="המשמר של בוננזה" state="off">13</channel>
+  			<channel fr="Bar de Jenny" en="Jenny's Bar" iw="הברז הדולף של ג'ני" state="off">14</channel>
+  			<channel fr="Salon de Blade" en="Blade's Style Zone" iw="אזור הסטייל של בלייד" state="off">15</channel>
+  			<channel fr="Tribu de Sans Parole" en="Never Speaks' Tribe" iw="השבט של שותק תמיד" state="off">16</channel>
+  			<channel fr="Jardin de Leaf Life" en="Leaf Life's Garden" iw="הערוגה של ליף לייף" state="off">17</channel>
+  			<channel fr="Patrouille de Charles" en="Charles' Patrol" iw="הפטרול של צ'רלס" state="off">18</channel -->
+  			
+  		</channels>
+  	</server>
+  </servers>
+  
+  <thresholds>
+                <!-- v -->
+    <th>5</th> <!-- vv -->
+    <th>20</th> <!-- vvv -->
+    <th>50</th> <!-- vvvv -->
+    <th>145</th><!-- vvvvv max non pioneers -->
+    <th>150</th><!-- full-->
+  </thresholds>
+  
+</data>
+

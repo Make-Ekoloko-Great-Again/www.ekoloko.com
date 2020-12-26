@@ -1,0 +1,73 @@
+<events>
+  <event name="login" id="1" status="off">
+    <images showAll="false">
+      <image url="facebook/image_login.jpg"/>
+    </images>
+    <clips>
+      </clips>
+  </event>
+  <event name="seniority" id="2" status="on">
+    <images showAll="false">
+      <image url="facebook/image_senior.jpg"/>
+    </images>
+    <clips>
+      <clip url="facebook/postClips/fb_seniority2"/>
+    </clips>
+  </event>
+  <event name="haircut" id="3" status="on">
+    <images showAll="false">
+      <image url="facebook/image_scissors1.jpg"/>
+    </images> 
+    <clips>
+     <clip url="facebook/postClips/fb_haircut"/>
+    </clips>
+  </event>
+  <event name="skintone" id="4" status="off">
+    <images showAll="false">
+      <image url="test.JPG"/>
+    </images>
+    <clips>
+      <clip url="facebook/postClips/facebook_avatar8"/>
+    </clips>
+  </event>
+  <event name="item_buy" id="5" status="off">
+    <images showAll="false">
+      <image url="test.JPG"/>
+    </images>
+    <clips>
+     <clip url="facebook/postClips/facebook_avatar8"/>
+    </clips>
+  </event>
+  <event name="animal_buy" id="6" status="on">
+    <images showAll="false">
+      <image url="facebook/image_animal.jpg"/>
+    </images>
+    <clips>
+      <clip url="facebook/postClips/fb_animal"/>
+    </clips>
+  </event>	
+  <event name="game_score" id="7" status="off">
+    <images showAll="false">
+      <image url="test.JPG"/>
+    </images>
+    <clips>
+      <clip url="facebook/postClips/facebook_avatar8"/>
+    </clips>
+  </event>
+  <event name="inworld_game_score" id="8" status="on">
+    <images showAll="false">
+      <image url="facebook/image_ball.jpg"/>
+    </images>
+    <clips>
+      <clip url="facebook/postClips/fb_basketball"/>
+    </clips>
+  </event>
+  <event name="new_pioneer" id="9" status="on">
+    <images showAll="false">
+      <image url="facebook/image_pioneer.jpg"/>
+    </images>
+    <clips>
+      <clip url="facebook/postClips/fb_pioneer"/>
+    </clips>
+  </event>
+</events>

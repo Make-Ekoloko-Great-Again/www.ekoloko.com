@@ -1,0 +1,78 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>ekoloko.com</title>
+<script> 
+if(document.location.toString().indexOf("http:") < 0) {
+var url = document.location.toString().replace("https:", "http:");
+document.location.replace(url);
+} 
+</script>
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function getVersion() {
+	return Math.random();
+}
+
+function getLanguageParameter() {
+  var p = getParameter('language');
+  if( p == undefined || p == "undefined" || p == null || p == "null") {
+    return "";
+  }
+  return 'language='+p+'&';
+}
+
+var url = 'http://play.ekoloko.web.enment.net/ekoloko/login.html?'+getLanguageParameter()+'username='+getParameter('username')+'&friend='+getParameter('friend')+'&refCode='+getParameter('refCode')+'&directLogin='+getParameter('directLogin')+'&version='+getVersion();
+  
+</script>
+ 
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.web.enment.net");
+    	pageTracker._trackPageview();
+  
+  } catch(err) {}
+</script>
+
+
+<script>
+document.write("<META HTTP-EQUIV=\"Refresh\" CONTENT=\"0; URL="+url+"\">");       
+</script>
+
+</body>
+</html>

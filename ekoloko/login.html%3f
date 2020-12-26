@@ -1,0 +1,167 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<title>ekoloko.com</title>
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+if(document.URL.indexOf('ekoloko.mako.', 0) >= 0) {
+  var url = "http://www.ekoloko.com/ekoloko/login.html";
+  url = addUrlParam("language", url);       
+  url = addUrlParam("username", url);       
+  url = addUrlParam("friend", url);       
+  url = addUrlParam("refCode", url);       
+  url = addUrlParam("directLogin", url);      
+  document.location.replace(url);
+}
+
+
+function popUp(URL) {
+	var open_link = window.open('','_blank');
+	open_link.location=URL;
+	//window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function getVersion() {
+	return Math.random();
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+
+var swfUrl = 'shell?version='+getVersion()
+swfUrl = addUrlParam("register", swfUrl);       
+swfUrl = addUrlParam("language", swfUrl);       
+swfUrl = addUrlParam("username", swfUrl);       
+swfUrl = addUrlParam("directLogin", swfUrl);       
+swfUrl = addUrlParam("advisor", swfUrl);
+swfUrl = addUrlParam("friend", swfUrl);
+swfUrl = addUrlParam("refCode", swfUrl);
+
+function createOnUnloadFunction() {
+  window.onbeforeunload = exitConfirmation;  
+}
+
+function exitConfirmation(e) {
+
+}                            
+
+//Set default language
+var lang = getParameter('language');
+if (!lang || lang == "null") lang = "us"; 
+
+function sendGoogleActionRequest(activity, module) {
+  var value = parseInt(activity);
+	_vtq._trackEvent("game_app", module, activity);
+}
+ 
+</script> 
+<link href="website/iw/ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#AAD93D" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-image:none" onLoad="">
+<div align="center">
+  <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,45,2',
+    			'width', '960',
+    			'height', '600',
+    			'src', swfUrl,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'direct',
+    			'devicefont', 'false',
+    			'id', 'shell',
+    			'bgcolor', '#AAD93D',
+    			'name', 'shell',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', swfUrl,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+     
+</div>
+
+<div id="footer_us" align="center">
+<span  class="footerText"><a href="website/us/Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('website/us/Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('website/us/Privacy.html')" class="footerLinks" style="color:#333333">Privacy Policy</a>  |  <a href="website/us/Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="website/us/Site_Map.html" class="footerLinks">Site map</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2012 Virtual Tweens Ltd.</span>
+</div>   
+<script>
+  var languages = ["us"];
+	
+  function showFooter(language) {   
+    for (var langIndex in languages) {
+      var currLang = languages[langIndex];
+      var image = document.getElementById('footer_'+currLang);
+      if(image != undefined) {
+        if(currLang == language) {
+  		    image.style.visibility = 'visible'; 
+  		  } else {
+    	    image.style.visibility = 'hidden'; 
+        }
+      }
+    }
+  }
+  
+  function hideFooter() {
+    showFooter("");
+  }
+  
+  showFooter(lang);
+</script>
+ 
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName("us.ekoloko.com");
+    	pageTracker._trackPageview();
+    	
+    	_vtq = _gat._createTracker('UA-4992646-7', "__vtq");
+  } catch(err) {}
+</script>
+
+
+<script>
+showFooter(lang);
+</script>
+
+</body>
+</html>

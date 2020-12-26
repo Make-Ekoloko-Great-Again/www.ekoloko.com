@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <servers>
+  	<server>
+  		<ip>80.179.191.35</ip>
+  		<port>443</port>
+  		<bb_ip>80.179.191.35</bb_ip>
+  		<bb_port>80</bb_port>
+  		<channels>
+  			<channel fr="Pré de Heathcliff" en="Heathcliff's Meadow" iw="האחו של הית'קליף" state="on">1</channel>
+  			<channel fr="Chutes de Dolphinfin" en="Dolphinfin's Falls" iw="מפל דולפינפין" state="on">2</channel>
+  			<channel fr="Arbre de Guakamayo" en="Guakamayo's Tree" iw="העץ של גוואקאמיו" isNewbie="no" state="on">3</channel>
+  			<channel fr="Pont de la Shaman" en="The Shaman's Bridge" iw="גשר השאמאנית" state="on">4</channel>
+  			<channel fr="Cour de jeu de Didier" en="Didier's playground" iw="המגרש של דידה" state="on">5</channel>
+  			<channel fr="Forêt de Bongo" en="Bongo's Forest Band" iw="מוזיקת היער של בונגו" state="on">6</channel>
+  			<channel fr="Oasis d&#39;Assraff" en="Assraff's Desert Oasis" iw="נווה המדבר של אסרף" state="on">7</channel>
+  			<channel fr="Gare de Honky" en="Honky's railway" iw="המסילה של הונקי" state="on">8</channel>
+  			<channel fr="Mine du Grand John" en="Big John's Coal Mine" iw="המכרה של ג'ון" state="on">9</channel>  			
+  			<channel fr="Dune de Tonnerre" en="Thunder's Dune" iw="הדיונה של ט'אנדר" state="on">10</channel>
+  			<channel fr="Ferme de Kat" en="Kat's Desert Farm" iw="החווה של קאט" state="on">11</channel>
+  			<channel fr="Tanière de G. Monster" en="Gila Monster's Lair" iw="המאורה של גילה" state="on">12</channel>
+  			
+  			
+  			<channel fr="Vigie de Filon" en="Bonanza's Watch" iw="המשמר של בוננזה" state="on">13</channel>
+  			<channel fr="Bar de Jenny" en="Jenny's Bar" iw="הברז הדולף של ג'ני" state="on">14</channel>
+  			<channel fr="Salon de Blade" en="Blade's Style Zone" iw="אזור הסטייל של בלייד" state="on">15</channel>
+  			<channel fr="Tribu de Sans Parole" en="Never Speaks' Tribe" iw="השבט של שותק תמיד" state="on">16</channel>
+  			<channel fr="Jardin de Leaf Life" en="Leaf Life's Garden" iw="הערוגה של ליף לייף" state="on">17</channel>
+  			<channel fr="Patrouille de Charles" en="Charles' Patrol" iw="הפטרול של צ'רלס" state="on">18</channel>
+  			
+  			<channel fr="Vigie de Filon" en="Yury's Landing Field" iw="המנחת של יורי" state="on">19</channel>
+  			<channel fr="Bar de Jenny" en="JCassiopeia's Lookout" iw="המצפה של קסיופיאה" state="on">20</channel>
+  			<channel fr="Salon de Blade" en="Dolcineah's Windmill" iw="התחנה של דולצינאה" state="on">21</channel>
+  			<channel fr="Tribu de Sans Parole" en="Sunny's Lab" iw="המעבדה של סאני" state="on">22</channel>
+  			<channel fr="Jardin de Leaf Life" en="Pierre's Nursery" iw="המשתלה של פייר" state="on">23</channel>
+  			<channel fr="Patrouille de Charles" en="Pump's Mine" iw="המכרה של פאמפ " state="on">24</channel>  			
+  		</channels>
+  	</server>
+  </servers>
+  
+  <thresholds>
+                <!-- v -->
+    <th>20</th> <!-- vv -->
+    <th>40</th> <!-- vvv -->
+    <th>60</th> <!-- vvvv -->
+    <th>80</th><!-- vvvvv max non pioneers -->
+    <th>100</th><!-- full-->
+  </thresholds>
+  
+</data>

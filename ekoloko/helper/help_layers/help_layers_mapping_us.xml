@@ -1,0 +1,40 @@
+<help_layers>
+    
+  <help_layer id="10" url="help_layer_inventory_en.swf" desc="My player panel"/>     
+
+</help_layers>
+
+  <!-- 
+  1 StoreBuyMenu
+  2 StoreSelectMenu
+  3 StoreSellMenu
+  4 NPCDataMenu
+  5 QuestMenu
+  6 ChangeUserSettings
+  7 HelpMenu
+  8 LinkAFriend
+  9 LinkMeMenu
+  10 MyPlayerPanel
+  11 NewpapperMenu
+  12 ChangeActivationMenu
+  13 OtherPlayerPanel
+  14 RangerMessagesPanel - senior
+  15 RangerMessagesPanel - regular
+  16 CreditsStorePane
+  17 MyAnimalMenu
+  18 AnimalStoreMenu
+  19 DonationCampaignDisplay
+  20 AlbumContainerMenu
+  21 CardAlbumMenu
+  22 CommunityEvent - 1 target
+  23 CommunityEvent - 2 targets
+  24 CommunityEvent - 3 target3
+  25 EmoticonsMenu
+  26 PotionsMenu
+  27 PotionStoreMenu
+  28 TradeMenu
+  29 BuyHouseMenu
+  30 HouseHelpMenu
+  31 GardenStoreMenu
+  32 MapPanel 
+  --> 

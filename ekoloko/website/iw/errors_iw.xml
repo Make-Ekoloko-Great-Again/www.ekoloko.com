@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<errors>
+		<userNotActivated>המנוי ממתין לאישור. אימייל הפעלה נשלח לכתובת המייל של ההורים</userNotActivated>
+		<unknownError>תקלת מערכת נסו שוב מאוחר יותר</unknownError>
+		<userBanned1>עברת על חוקי העולם הורחקת ל-24 שעות</userBanned1>
+		<userBanned7>עברת על חוקי העולם הורחקת לשבוע</userBanned7>
+		<userBannedForever>עברת על חוקי העולם הורחקת לצמיתות</userBannedForever>
+		<badLoginDetails>שם משתמש או סיסמא אינם נכונים</badLoginDetails>
+		<enterUsername>יש להקליד שם משתמש. במידה ועדיין אין לכם שחקן באקולוקו ליחצו על כפתור ההרשמה וצרו משתמש בחינם</enterUsername>
+		<badUserName>שם משתמש אינו נכון</badUserName>
+		<enterPassword>יש להקליד את הסיסמא שלך</enterPassword>
+		<badUserPassword>הסיסמא אינה נכונה</badUserPassword>
+		<errorSendingPass>בעיה במשלוח הסיסמא אנא נסו שנית מאוחר יותר</errorSendingPass>
+		<passwordSent>סיסמתך נשלחה לכתובת המייל שלכם</passwordSent>
+		<badCaptcha>קוד האישור שהכנסתם אינו נכון</badCaptcha>
+	</errors>
+</data>

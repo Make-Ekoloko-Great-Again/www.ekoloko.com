@@ -1,0 +1,12 @@
+<avatar name="zorbaa2" level="23">
+  <items>
+    <item type="16" name="MAKEUP" ordinal="1"/>
+    <item type="1" name="HAIR" ordinal="50601"/>
+    <item type="2" name="EYES" ordinal="1"/>
+    <item type="4" name="SHIRT" ordinal="42604"/>
+    <item type="6" name="PANTS" ordinal="12401"/>
+    <item type="7" name="SHOES" ordinal="10704"/>
+    <item type="15" name="SKINTONE" ordinal="1"/>
+    <item type="14" name="BOARD" ordinal=" 10704"/>
+  </items>
+</avatar>

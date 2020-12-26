@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<introBanners>
+		<banner>banner_1_eng.swf</banner>
+		<banner>banner_2_eng.swf</banner>
+		<banner>banner_3_eng.swf</banner>
+	</introBanners>
+	<loginBanners>
+		<banner>banner_2_eng.swf</banner>
+		<banner>banner_1_eng.swf</banner>
+		<banner>banner_3_eng.swf</banner>
+	</loginBanners>
+</data>

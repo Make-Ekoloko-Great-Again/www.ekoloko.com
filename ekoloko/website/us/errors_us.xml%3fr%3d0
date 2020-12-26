@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<errors>
+		<userNotActivated>Activate account through the link sent to your parents e-mail.</userNotActivated>
+		<unknownError>Connection problem please try again.</unknownError>
+		<userBanned1>You have violated the behavior code. You are banned for 24 hours.</userBanned1>
+		<userBanned7>You have violated the behavior code. You are banned for a week.</userBanned7>
+		<userBannedForever>You have violated the behavior code. You are banned forever.</userBannedForever>
+		<badLoginDetails>Incorrect username or password.</badLoginDetails>
+		<enterUsername>Please fill the username field.</enterUsername>
+		<badUserName>Incorrect username.</badUserName>
+		<enterPassword>Please fill the password field.</enterPassword>
+		<badUserPassword>Password is wrong.</badUserPassword>
+		<errorSendingPass>Problem sending password. Please try again later.</errorSendingPass>
+		<passwordSent>Your password was sent to your e-mail address.</passwordSent>
+	</errors>
+</data>

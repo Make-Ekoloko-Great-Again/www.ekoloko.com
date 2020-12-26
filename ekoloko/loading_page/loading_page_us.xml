@@ -1,0 +1,1912 @@
+<loading_page>
+
+  <group maxDaysPlayed="0">
+    <pages>   
+    	<page>
+    		<swfs>	
+
+<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_welcome4_us.swf"/>
+        </swfs>
+    	</page>
+    </pages>
+    <rooms>
+    </rooms>
+    <doors>
+      <door id="-999" name="initialization">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/bongo_en.swf"/>
+    		</swfs>
+      </door> 
+    </doors>
+  </group>
+    
+  
+  
+  <group maxDaysPlayed="1">
+    <pages>   
+    	<page>
+    		<swfs>	
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day1_1_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day1_3_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day1_5_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day1_6_us.swf"/>
+    <swf gender="both" minDisplayTime="4" src="./loading_page/swfs/preloader_world_map_us.swf"/> 
+        </swfs>
+    	</page>
+    </pages>
+    
+     <rooms>
+     <room id="811" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="812" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs> 
+        </room> 
+        <room id="813" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="814" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="815" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="816" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="817" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="818" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="819" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="820" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="821" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="822" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="823" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="824" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="825" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="826" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room> 
+        <room id="827" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room >     
+         <room id="862" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room>         
+        <room id="830" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>    
+        </swfs> 
+        </room>
+        <room id="831" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="832" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="833" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="834" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="835" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="836" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="837" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="838" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="839" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="840" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="841" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="842" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="843" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="844" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="845" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="846" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="847" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="848" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="849" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="850" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="851" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+         <room id="852" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+        </room>
+          <room id="853" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="854" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="855" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="856" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="857" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="858" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="859" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="860" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="861" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="863" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="864" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="865" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="866" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="867" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="868" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+   </room>
+                
+    </rooms>
+    
+    <doors> 
+      <door id="-100" name="enterHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport.swf"/>
+    			
+    		</swfs>
+      </door>
+      <door id="-101" name="exitHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport2.swf"/>
+    		</swfs>
+      </door>	    
+      <door id="20">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3b.swf"/>
+    		</swfs>
+      </door>		
+      <door id="74">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3.swf"/>
+    		</swfs>
+      </door>    
+      <door id="75">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/timewarp.swf"/>
+      		</swfs>
+      </door>
+      <door id="24">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+      <door id="23">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+                  <door id="25">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+            <door id="76">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+         <door id="703">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/greece_teleport.swf"/>
+      		</swfs>
+      </door>             
+    </doors>  
+  </group>
+  
+<group maxDaysPlayed="2">
+    <pages>   
+    	<page>
+    		<swfs>	
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day2_0_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day2_1_us.swf"/>
+
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day2_3_us.swf"/>
+    <swf gender="both" minDisplayTime="4" src="./loading_page/swfs/preloader_world_map_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day2_5_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_4_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day2_6_us.swf"/>
+
+	  
+        </swfs>
+    	</page>
+    </pages>
+    
+     <rooms>
+     <room id="811" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="812" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs> 
+        </room> 
+        <room id="813" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="814" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="815" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="816" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="817" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="818" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="819" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="820" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="821" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="822" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="823" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="824" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="825" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="826" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room> 
+        <room id="827" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room >     
+         <room id="862" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room>         
+        <room id="830" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>    
+        </swfs> 
+        </room>
+        <room id="831" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="832" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="833" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="834" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="835" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="836" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="837" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="838" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="839" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="840" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="841" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="842" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="843" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="844" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="845" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="846" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="847" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="848" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="849" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="850" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="851" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+         <room id="852" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+        </room>
+          <room id="853" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="854" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="855" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="856" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="857" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="858" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="859" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="860" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="861" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="863" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="864" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="865" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="866" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="867" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="868" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+   </room>
+                
+    </rooms>
+    
+    <doors> 
+      <door id="-100" name="enterHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport.swf"/>
+    			
+    		</swfs>
+      </door>
+      <door id="-101" name="exitHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport2.swf"/>
+    		</swfs>
+      </door>	    
+      <door id="20">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3b.swf"/>
+    		</swfs>
+      </door>		
+      <door id="74">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3.swf"/>
+    		</swfs>
+      </door>    
+      <door id="75">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/timewarp.swf"/>
+      		</swfs>
+      </door>
+      <door id="24">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+      <door id="23">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+                  <door id="25">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+            <door id="76">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+           <door id="703">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/greece_teleport.swf"/>
+      		</swfs>
+      </door>             
+    </doors>  
+  </group>
+<group maxDaysPlayed="3">
+    <pages>   
+    	<page>
+    		<swfs>	
+
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_2_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_5_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_6_us.swf"/>
+
+		<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_9_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_4_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_7_us.swf"/>
+    <swf gender="both" minDisplayTime="4" src="./loading_page/swfs/preloader_world_map_us.swf"/>
+		
+        </swfs>
+    	</page>
+    </pages>
+    
+    <rooms>
+    </rooms>
+    
+    <doors> 
+      <door id="-100" name="enterHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport.swf"/>
+    			
+    		</swfs>
+      </door>
+      <door id="-101" name="exitHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport2.swf"/>
+    		</swfs>
+      </door>	    
+      <door id="20">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3b.swf"/>
+    		</swfs>
+      </door>		
+      <door id="74">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3.swf"/>
+    		</swfs>
+      </door>    
+      <door id="75">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/timewarp.swf"/>
+      		</swfs>
+      </door>
+      <door id="24">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+      <door id="23">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+                  <door id="25">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+            <door id="76">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+           <door id="703">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/greece_teleport.swf"/>
+      		</swfs>
+      </door>             
+    </doors>  
+  </group>
+<group maxDaysPlayed="4">
+    <pages>   
+    	<page>
+    		<swfs>	
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_1_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_3_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_5_us.swf"/>
+	 <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_buddyListContest1_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_6_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_4_us.swf"/>
+		<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_9_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_7_us.swf"/>
+		      </swfs>
+    	</page>
+    </pages>
+    
+     <rooms>
+     <room id="811" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="812" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs> 
+        </room> 
+        <room id="813" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="814" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="815" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="816" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="817" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="818" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="819" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="820" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="821" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="822" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="823" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="824" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="825" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="826" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room> 
+        <room id="827" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room >     
+         <room id="862" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room>         
+        <room id="830" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>    
+        </swfs> 
+        </room>
+        <room id="831" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="832" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="833" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="834" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="835" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="836" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="837" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="838" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="839" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="840" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="841" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="842" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="843" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="844" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="845" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="846" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="847" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="848" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="849" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="850" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="851" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+         <room id="852" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+        </room>
+          <room id="853" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="854" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="855" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="856" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="857" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="858" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="859" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="860" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="861" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="863" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="864" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="865" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="866" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="867" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="868" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+   </room>
+                
+    </rooms>
+    
+    <doors> 
+      <door id="-100" name="enterHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport.swf"/>
+    			
+    		</swfs>
+      </door>
+      <door id="-101" name="exitHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport2.swf"/>
+    		</swfs>
+      </door>	    
+      <door id="20">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3b.swf"/>
+    		</swfs>
+      </door>		
+      <door id="74">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3.swf"/>
+    		</swfs>
+      </door>    
+      <door id="75">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/timewarp.swf"/>
+      		</swfs>
+      </door>
+      <door id="24">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+      <door id="23">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+                  <door id="25">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+            <door id="76">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+            <door id="703">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/greece_teleport.swf"/>
+      		</swfs>
+      </door>             
+    </doors>  
+  </group>
+  
+<group maxDaysPlayed="5">
+    <pages>   
+    	<page>
+    		<swfs>	
+
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_5_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_6_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_2_us.swf"/>
+		<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_9_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_3_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_4_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_7_us.swf"/>
+
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_8_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_5_us.swf"/>
+		        </swfs>
+    	</page>
+    </pages>
+    
+    <rooms>
+    </rooms>
+    
+    <doors> 
+      <door id="-100" name="enterHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport.swf"/>
+    			
+    		</swfs>
+      </door>
+      <door id="-101" name="exitHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport2.swf"/>
+    		</swfs>
+      </door>	    
+      <door id="20">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3b.swf"/>
+    		</swfs>
+      </door>		
+      <door id="74">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3.swf"/>
+    		</swfs>
+      </door>    
+      <door id="75">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/timewarp.swf"/>
+      		</swfs>
+      </door>
+      <door id="24">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+      <door id="23">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+                  <door id="25">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+            <door id="76">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door> 
+             <door id="703">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/greece_teleport.swf"/>
+      		</swfs>
+      </door>            
+    </doors>  
+  </group>  
+<group maxDaysPlayed="9999">
+    <pages>   
+    	<page>
+    		<swfs>	
+
+   
+
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_5_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_6_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_3_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_generic_4_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_day3_8_us.swf"/>
+	  <swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blog_us.swf"/>
+
+  </swfs>
+    	</page>
+    </pages>
+    
+     <rooms>
+     <room id="811" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="812" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs> 
+        </room> 
+        <room id="813" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="814" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="815" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="816" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="817" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="818" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="819" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="820" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="821" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="822" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="823" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="824" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="825" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="826" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room> 
+        <room id="827" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room >     
+         <room id="862" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room>         
+        <room id="830" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>    
+        </swfs> 
+        </room>
+        <room id="831" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="832" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="833" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="834" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="835" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="836" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="837" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="838" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="839" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="840" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="841" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="842" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="843" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="844" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="845" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="846" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="847" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="848" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="849" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="850" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="851" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+         <room id="852" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+        </room>
+          <room id="853" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="854" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="855" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="856" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="857" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="858" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="859" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="860" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="861" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="863" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="864" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="865" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="866" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="867" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="868" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+   </room>
+                
+    </rooms>
+    
+    <doors> 
+      <door id="-100" name="enterHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport.swf"/>
+    			
+    		</swfs>
+      </door>
+      <door id="-101" name="exitHouse">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/moon_teleport2.swf"/>
+    		</swfs>
+      </door>	    
+      <door id="20">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3b.swf"/>
+    		</swfs>
+      </door>		
+      <door id="74">
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_space3.swf"/>
+    		</swfs>
+      </door>    
+      <door id="75">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/timewarp.swf"/>
+      		</swfs>
+      </door>
+      <door id="24">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+      <door id="23">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_falling_dirt.swf"/>
+      		</swfs>
+      </door>
+                  <door id="25">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+            <door id="76">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/jetboard_teleport.swf"/>
+      		</swfs>
+      </door>
+             <door id="703">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/greece_teleport.swf"/>
+      		</swfs>
+      </door>             
+    </doors>  
+  </group>
+  <group maxDaysPlayed="999999" name="tutorial">
+      <pages>   
+      	<page>
+      		<swfs>	
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_day1_1_us.swf"/>                                                          
+          </swfs>
+      	</page>
+      </pages>
+      
+     <rooms>
+     <room id="811" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="812" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs> 
+        </room> 
+        <room id="813" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="814" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="815" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="816" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="817" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="818" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="819" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="820" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+      <room id="821" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+       <room id="822" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="823" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="824" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="825" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room>
+        <room id="826" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>			
+    		</swfs>
+      </room> 
+        <room id="827" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room >     
+         <room id="862" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_green_floor_iw.swf"/>				
+    		</swfs>
+      </room>         
+        <room id="830" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>    
+        </swfs> 
+        </room>
+        <room id="831" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="832" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+        <room id="833" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="834" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="835" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="836" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="837" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="838" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="839" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="840" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="841" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="842" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="843" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="844" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="845" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="846" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="847" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="848" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="849" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="850" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_blue_floor_iw.swf"/>			
+    		</swfs>   
+        </room>
+         <room id="851" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+         <room id="852" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+        </room>
+          <room id="853" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="854" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="855" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="856" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="857" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="858" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="859" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="860" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="861" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="863" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="864" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="865" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="866" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="867" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+    		</room>
+          <room id="868" >
+      	<swfs>
+    			<swf gender="both" minDisplayTime="3" src="./loading_page/swfs/preloader_red_floor_iw.swf"/>			
+    		</swfs>
+   </room>
+                
+    </rooms>
+  
+      <doors> 
+        <door id="-999" name="exitTutorial">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="4" src="./loading_page/swfs/preloader_world_map_us.swf"/>    		
+      		</swfs>
+        </door>	    
+        <door id="2">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_tutorial1_us.swf"/>
+      		</swfs>
+        </door>		
+        <door id="14">
+        	<swfs>
+      			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_tutorial2_us.swf"/>
+      		</swfs>
+        </door>    
+        <door id="18">
+          	<swfs>
+        			<swf gender="both" minDisplayTime="2.5" src="./loading_page/swfs/preloader_tutorial3_us.swf"/>
+        		</swfs>
+        </door>         
+      </doors>  
+    </group>    
+
+</loading_page>

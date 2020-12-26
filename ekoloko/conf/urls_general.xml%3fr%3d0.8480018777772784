@@ -1,0 +1,27 @@
+<general>
+  <protocol_http>http</protocol_http>
+  <static_data_port_http>80</static_data_port_http>   
+  <dynamic_data_port_http>80</dynamic_data_port_http>
+  <facebook_data_port_http>80</facebook_data_port_http>
+  
+  <protocol_https>https</protocol_https> 
+  <static_data_port_https>443</static_data_port_https>
+  <dynamic_data_port_https>443</dynamic_data_port_https>
+  <facebook_data_port_https>443</facebook_data_port_https>
+  
+	<static_data_ip>play.ekoloko.com</static_data_ip>
+	<dynamic_data_ip>data.ekoloko.com</dynamic_data_ip>
+	<facebook_data_ip>facebook.ekoloko.co.il</facebook_data_ip>
+	
+  <app_ekoloko>ekoloko</app_ekoloko>
+	<app_web>ekoloko-web</app_web>
+	<app_i18n>ekoloko-i18n</app_i18n>
+	<app_json>ekoloko-json</app_json>
+	<app_facebook>facebook</app_facebook>
+	
+	<languages allowLanguageChange="yes">
+    <language id="en"  default="no"/>
+    <language id="iw" default="yes"/> 
+	</languages>
+	
+</general>

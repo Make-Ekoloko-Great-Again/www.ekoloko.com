@@ -1,0 +1,1018 @@
+﻿<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+var menuSwf = "subPage_menu?page=4&language=iw"//+getParameter('language');
+var sideMenuSwf = "sideMenu_help?page=2&language=iw"//+getParameter('language');
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+function displayGenerationTable() {
+	var div = document.getElementById('generationTable');
+	div.style.visibility = 'visible';
+	div.style.height = '620px';
+	div.style.display = "inline";
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+#generationTable {
+ visibility:hidden;
+ height:0px;
+ display:none;
+}
+-->
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a name="top"></a>
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable_iw.jpg">
+  <div style="background-image:url(../common/images/main_iw.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0" style="margin-left:50px;">
+              <tr>
+                <td align="right" valign="top" dir="rtl">
+				<p><span class="Title">שאלות נפוצות</span>
+                  <br>
+                 
+                  <img src="../common/images/faq_title_1_iw.png" width="560" height="100"><br>
+                  <!--<span class="FAQTitle">משחקים, משימות ופעילויות באקולוקו</span>-->
+                  <ul>
+				   <li><a href="#a1" class="faqQuestions">מה עושים באקולוקו?</a></li>
+				   <!--<li><a href="#a1.1" class="faqQuestions">מה הם שרתי המתחילים?</a></li>-->
+			       <li><a href="#a2" class="faqQuestions">מה הדרך הכי טובה להתקדם באקולוקו?</a></li>
+			       <li><a href="#a3" class="faqQuestions">אין לי אף משימה פתוחה, מה לעשות?</a></li>
+			       <li><a href="#a4" class="faqQuestions">איפה אני מוצא משחקים?</a></li>
+                   <li><a href="#a5" class="faqQuestions">מה הם משחקי 1 על 1, ואיך משחקים אותם?</a></li>
+                   <li><a href="#a5.1" class="faqQuestions">מה המשמעות של כל הסמלים מתחת לדמות שלי בתפריט האישי <img src="../common/images/handIcon.png" width="26" height="25" border="0" align="absmiddle">?</a></li>
+                   <li><a href="#a6" class="faqQuestions">מהן נקודות מנהיגות ואיך ניתן להשיג אותן?</a></li>
+                   <!--
+				   <li><a href="#a6.1" class="faqQuestions">מה המשמעות של תג החלוץ השקוף <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> בתפריט האישי שלי?</a></li>
+                   <li><a href="#a6.2" class="faqQuestions">מה המשמעות של אייקון המגילה <span class="BodyText"><img src="../common/images/generationIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"></span>בתפריט האישי?</a></li>
+				   -->
+                   <li><a href="#a7" class="faqQuestions">מהו אירוע קהילה וכיצד אני לוקח בו חלק?</a></li>
+                   <li><a href="#a8" class="faqQuestions">איך קונים בחנויות?</a></li>
+                   <li><a href="#a9" class="faqQuestions">יש לי בגד בשק החפצים ואני לא יכול ללבוש אותו, למה?</a></li>
+                   <li><a href="#a10" class="faqQuestions">ראיתי שילדים נותנים מתנות באקולוקו. איך עושים את זה?</a></li>
+                   <li><a href="#a11" class="faqQuestions">מה זה אזור ההחלפות?</a></li>
+				   <!--
+                   <li><a href="#a11.1" class="faqQuestions">יש לי חפץ ואני לא מצליח לתת אותו או לעשות החלפות עבורו. למה זה קורה?</a></li>
+				   -->
+                   <li><a href="#a11.2" class="faqQuestions">מה משמעות השעון <img src="../common/images/clockIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> המסומן ליד חלק מהחפצים באקולוקו?</a></li>
+                   <!--
+				   <li><a href="#a12" class="faqQuestions">כיצד משחקים בקליעה למטרה אצל ג'ני ספיידז ואצל שוקולד ג'ים?</a></li>
+                   <li><a href="#a13" class="faqQuestions">כיצד מרוויחים קסדת חלל?</a></li>
+				   -->
+                   <li><a href="#a14" class="faqQuestions">מה זה פסגות הערפל ואיך מגיעים אליהן?</a></li>
+                   <li><a href="#a15" class="faqQuestions">מה זה המעברים הסודיים?</a></li>
+                  </ul>
+                  <img src="../common/images/faq_title_2_iw.png" width="560" height="100">
+				  <!--<span class="FAQTitle">קבלת עזרה</span>-->
+			      <ul>
+				   <li><a href="#b1" class="faqQuestions">לפעמים אני לא יודע מה אני צריך לעשות. איפה מקבלים עזרה באקולוקו?</a></li>
+			       <li><a href="#b2" class="faqQuestions">כיצד ניתן ליצור קשר עם אקולוקו?</a></li>
+                  </ul>
+                  <!--<span class="FAQTitle">תהליך ההרשמה</span>-->
+                  <img src="../common/images/faq_title_3_iw.png" width="560" height="100">
+			      <ul>
+				   <li><a href="#b3" class="faqQuestions">נרשמתי לאקולוקו, אבל מדי פעם אני מקבל הודעה שעדיין לא אישרתי את ההרשמה. מה זה אומר?</a></li>
+                  </ul>
+           		<!--<span class="FAQTitle">חלוצי אקולוקו</span>-->
+              <img src="../common/images/faq_title_4_iw.png">
+				   <ul>
+				   <li><a href="#c1" class="faqQuestions">מה זה חלוץ?</a></li>
+			       <li><a href="#c2" class="faqQuestions">כיצד מרוויחים תג חלוץ ודיסקית טיסה?</a></li>
+			       <li><a href="#c3" class="faqQuestions">כיצד משלמים את דמי החבר של החלוצים?</a></li>
+			       <!--<li><a href="#c4" class="faqQuestions">מה זה אקו-קארד?</a></li>-->
+			       <li><a href="#c4.1" class="faqQuestions">למה התאפסו לי נקודות החלוץ <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle">?</a></li>
+			       <!--<li><a href="#c5" class="faqQuestions">ההורים שלי לא מרשים לי להיות חלוץ – מה אפשר לעשות?</a></li>-->
+                   <li><a href="#c5.1" class="faqQuestions">קבלתי הודעה עם הצעה מיוחדת, מה זה אומר?</a></li>
+			       <li><a href="#c6" class="faqQuestions">מה זה אקו-קוד?</a></li>
+                  </ul>
+			     <!--<span class="FAQTitle">אימוץ חיות באקולוקו</span>-->
+                 <img src="../common/images/faq_title_5_iw.png" width="560" height="100">
+			      <ul>
+				   <li><a href="#d1" class="faqQuestions">האם חייבים להיות חלוצים כדי לאמץ גור של חיה?</a></li>
+			       <li><a href="#d2" class="faqQuestions">איפה ואיך מאמצים גור של חיה?</a></li>
+			       <li><a href="#d3" class="faqQuestions">איך מטפלים בגור?</a></li>
+			       <li><a href="#d4" class="faqQuestions">האם הגור יישאר אצלי לתמיד?</a></li>
+			       <li><a href="#d5" class="faqQuestions">נעלם לי גור החיה שאימצתי. למה זה קרה?</a></li>
+			       <li><a href="#d6" class="faqQuestions">האם אפשר להחליף חיה לפני תום תקופת הטיפול שלה?</a></li>
+			       <li><a href="#d7" class="faqQuestions">למה אני לא מצליח לאמץ חיה גדולה?</a></li>
+                  </ul>
+				  <!--<span class="FAQTitle">סיסמאות, פרטים אישיים והגנה על האקו שלי</span>-->
+                 <img src="../common/images/faq_title_6_iw.png">
+				   <ul>
+				   <li><a href="#e1" class="faqQuestions">כיצד אני משנה סיסמה ומעדכנ/ת את הפרטים שלי?</a></li>
+			       <li><a href="#e2" class="faqQuestions">הכנסתי כתובת מייל לא נכונה ואני רוצה לשנות – מה לעשות?</a></li>
+			       <li><a href="#e3" class="faqQuestions">למה צריך לבחור סיסמה חזקה?</a></li>
+			       <li><a href="#e4" class="faqQuestions">האם מותר לי לתת את הסיסמה שלי למנהלי אקולוקו?</a></li>
+			       <li><a href="#e5" class="faqQuestions">איך אפשר להגן על השחקן שלי ועל הסיסמה שלי בצורה הטובה ביותר?</a></li>
+			       <li><a href="#e6" class="faqQuestions">איך להיזהר מרמאים באקולוקו?</a></li>
+			       <li><a href="#e7" class="faqQuestions">איך מזהים מנהלים באקולוקו?</a></li>
+                  </ul>
+				  <!--<span class="FAQTitle">סיירת אקולוקו</span>-->
+				  <img src="../common/images/faq_title_7_iw.png">
+				  <ul>
+				   <li><a href="#f1" class="faqQuestions">מה זה הסיירת ואיך מצטרפים אליה?</a></li>
+			       <li><a href="#f2" class="faqQuestions">אני כבר סייר ורוצה להתקדם ולהיות סייר 2. איך מתקבלים?</a></li>
+                  </ul>
+				  <!--<span class="FAQTitle">כללי ההתנהגות</span>-->
+                  <img src="../common/images/faq_title_8_iw.png">
+				   <ul>
+				   <li><a href="#g1" class="faqQuestions">מה קורה לאקו שלא מכבד את הכללים?</a></li>
+			       <li><a href="#g2" class="faqQuestions">מה אתם עושים עם הדיווחים שאנחנו שולחים לכם דרך כפתור המשרוקית?</a></li>
+			       <li><a href="#g3" class="faqQuestions">האם אני יכול לצ'וטט בפרטיות בלי שאף אחד יראה?</a></li>
+			       <li><a href="#g4" class="faqQuestions">כמה שעות ביום אפשר לשחק באקולוקו?</a></li>
+                  </ul>
+             	 <br>
+					 <img src="../common/images/faq_image.png"><br>
+                     
+                  <p><span class="FAQTitle"><a name="a1"></a>מה עושים באקולוקו?</span><br>
+                    <span class="BodyText">באקולוקו אפשר לעשות המון המון דברים. כמו למשל: לסיים משימות על ידי הקלקה על כל תושב קבע שיש מעליו סימן שאלה <img src="../common/images/questionMark.png" width="17" height="25" align="absmiddle"> או סימן קריאה <img src="../common/images/exclamationMark.png" width="17" height="25" align="absmiddle">. כל משימה מוצלחת תזכה אתכם בנקודות וקוקואים (הכסף של העולם) ותאפשר לכם להתקדם בדרגות ולשפר את הדמות שלכם. כמו כן, אתם יכולים להכיר חברים חדשים, לשחק ולשוחח איתם וגם לרכוש לעצמכם בגדים ואביזרים באמצעות הכסף שצברתם (קוקואים). על מנת להבין את כל זה לעומק בעזרת הדגמות, בכל מסך תוכלו לראות בצד ימין למעלה סימן שאלה לחיצה עליו תפנה אתכם למדריך למשתמש באקולקו ושם תוכלו לקרוא, לראות הדגמות ולהבין הכל.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+				  
+				  <!--<p><span class="FAQTitle"><a name="a1.1"></a>מה הם שרתי המתחילים?</span><br>
+                    <span class="BodyText">לילדים שרק הצטרפו לאקולוקו מומלץ בחום להיכנס לשרתים 11 ו-12.<span class="BodyText"><img src="../common/images/newbieIcon.png" alt="" width="25" height="25" align="absmiddle"></span> שרתי המתחילים מוקדשים לילדים חדשים ותוכלו למצוא  בהם הפעלות לילדים חדשים, טיפים ועצות על העולם והמשחק. בשרתי ההדרכה תוכלו גם לפגוש סיירים, שהם אקואים וותיקים ותפקידם לענות לשאלות ולעזור לילדים חדשים.
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>-->
+					
+				  <p><span class="FAQTitle"><a name="a2"></a>מה הדרך הכי טובה להתקדם באקולוקו?</span><br>
+                    <span class="BodyText">הדרך הטובה ביותר להתקדם באקולוקו היא להשלים משימות ולשחק משחקים. את המשימות ניתן לקבל אצל כל דמות בעולם שיש מעל הראש שלה סימן שאלה <img src="../common/images/questionMark.png" width="17" height="25" align="absmiddle">. הקליקו על הדמויות, קבלו את המשימות, השלימו אותן, וחזרו לקבל את הפרסים, הכסף והנקודות. אם השלמתם את כל המשימות שהיו פתוחות בפניכם ועדיין לא עליתם דרגה, בדקו בתפריט האישי <img src="../common/images/handIcon.png" width="26" height="25" align="absmiddle"> כמה נקודות חסרות לכם והשלימו אותן במשחקים השונים בעולם. כל משחק שתשחקו ייתן לכם נקודות פעילות.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a3"></a>אין לי אף משימה פתוחה, מה לעשות?</span><br>
+                    <span class="BodyText">משימות מקבלים מתושבי הקבע, בכל פעם שיש לתושב קבע סימן שאלה מעל הראש יש לו משימה לתת לכם. אם אין לכם משימות פתוחות קודם כל בדקו בכפתור המשימות <img src="../common/images/missionIcon.png" width="27" height="25" align="absmiddle"> המשימות שיכולות להיפתח עבורכם נמצאות בתגית השמאלית <img src="../common/images/missionNewIcon.png" width="21" height="21" align="absmiddle">, לחצו על כל אחת מהן כדי לגלות אצל מי הן נמצאות. בתיקייה האמצעית תוכלו למצוא משימות שעוד לא סיימתם. מה קורה אם שתי התיקיות ריקות? שחקו במשחקים ודאגו לעלות לרמה הבאה! ברגע שתעלו בדרגה ייפתחו בפניכם משימות רבות נוספות.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a4"></a>איפה אני מוצא משחקים?</span><br>
+                    <span class="BodyText">המשחקים באקולוקו מתחלקים לשלושה סוגים: משחקי 1 על 1, משחקי רחוב שניתן לשחק במסכי העולם (קוקו סל, כדורסל ועוד), ומשחקים אישיים שנמצאים אצל תושבי הקבע ומגיעים אליהם דרך השלמת משימות. יש כמה משחקים שפתוחים בפניכם החל מדרגה 1 (אצל היתקליף וקפטן דולפינפין למשל) ויש משחקים שייפתחו בפניכם ככל שתתקדמו בדרגות. כל משחק שכבר הרווחתם, תוכלו לחזור ולשחק בכל רגע אצל תושב הקבע שאצלו שיחקתם בפעם הראשונה.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a5"></a>מה הם משחקי 1 על 1, ואיך משחקים אותם?</span><br>
+                    <span class="BodyText">משחקי 1 על 1 הם משחקים שאתם יכולים לשחק נגד החברים שלכם, וחברים אחרים יכולים לצפות בכם. את משחקי האחד על אחד מרוויחים דרך משימות, ואת המשחק הראשון, "בונגו" תרוויחו בדרגה 4. אם הרווחתם משחק 1 על 1, ליחצו על חבר איתו אתם רוצים לשחק ואז ליחצו על אייקון המשחקים <img src="../common/images/1on1Icon.png" width="25" height="25" align="absmiddle">. הזמנה למשחק תופיע בפינה השמאלית של המסך. אם עדיין לא הרווחתם את המשחק, בינתיים תצטרכו לחכות להזמנה.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+				  
+				  <p><span class="FAQTitle"><a name="a5.1"></a>מה המשמעות של כל הסמלים מתחת לדמות שלי בתפריט האישי <img src="../common/images/handIcon.png" width="26" height="25" align="absmiddle">?</span><br>
+                    <span class="BodyText">בתפריט האישי ניתן לראות את הנתונים שלכם: את הדרגה שלכם <img src="../common/images/levelIcon.png" width="26" height="25" align="absmiddle">, את הדור שלכם באקולוקו<img src="../common/images/generationIcon.png" width="26" height="25" align="absmiddle">, את נקודות המנהיגות שלכם <img src="../common/images/leaderIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> ואת נקודות החלוץ שלכם  <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle">.
+					<br/>
+					<br/>דרגה <img src="../common/images/levelIcon.png" alt="" width="26" height="25" align="absmiddle">: החלונית מסמנת לאיזו דרגה הגעתם באקולוקו. בכדי לעלות ברמות עליכם להשלים משימות ולצבור נקודות פעילות. ככל שתתקדמו בדרגות תוכלו לעשות משימות רבות יותר ולהשתמש בחפצים ובגדים רבים יותר. מעל חלונית הדרגה ישנה חלונית מלבנית המסמנת כמה נקודות פעילות נותרו לכם לצבור עד הדרגה הבאה.
+					<br/><br/>נקודות מנהיגות <img src="../common/images/leaderIcon.png" alt="" width="26" height="25" border="0" align="absmiddle">: נקודות מנהיגות הן נקודות המוענקות לכם על ידי חבריכם באקולוקו עבור גילויי מנהיגות וחברות.  ככל שתצברו יותר נקודות מנהיגות תוכלו לעשות דברים רבים יותר בעולם.
+					<br/>
+					<br/>דור אקולוקו <img src="../common/images/generationIcon.png" alt="" width="26" height="25" align="absmiddle">: מסמל את הוותק שלכם באקולוקו. בכל יום בו תיכנסו לאקולוקו תצברו יום ותק נוסף. גם כאן ככל שתהיו בדור מתקדם יותר, תוכלו לעשות דברים רבים יותר.  <br>
+                    לצפיה בימי הוותק שעליכם לעבור על מנת לעלות דור <a href="javascript:displayGenerationTable();">לחצו כאן</a><br/>
+                    </span>
+                  <div id="generationTable" class="generationTableDiv">
+
+                    <table width="400" border="1" cellpadding="2" cellspacing="0">
+                      <tr>
+                        <td width="50" align="center" bgcolor="#DBDCCD" class="BodyText"><strong class="generationTableDiv">דור</strong></td>
+                        <td align="center" bgcolor="#DBDCCD" class="BodyText"><strong>תואר</strong></td>
+                        <td width="150" align="center" bgcolor="#DBDCCD" class="BodyText"><strong>כמה ימים עד לדור הבא?</strong></td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>1</strong></td>
+                        <td align="center" class="BodyText">ג'אנגל  נובי</td>
+                        <td width="150" align="center" class="BodyText">1</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>2</strong></td>
+                        <td align="center" class="BodyText">אקו נובי</td>
+                        <td width="150" align="center" class="BodyText">5</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>3</strong></td>
+                        <td align="center" class="BodyText">לונה נובי</td>
+                        <td width="150" align="center" class="BodyText">9</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>4</strong></td>
+                        <td align="center" class="BodyText">טיים נובי</td>
+                        <td width="150" align="center" class="BodyText">10</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>5</strong></td>
+                        <td align="center" class="BodyText">ג'אנגל  קיד</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>6</strong></td>
+                        <td align="center" class="BodyText">אקוקיד</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>7</strong></td>
+                        <td align="center" class="BodyText">לונהקיד</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>8</strong></td>
+                        <td align="center" class="BodyText">טייםקיד</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>9</strong></td>
+                        <td align="center" class="BodyText">ג'אנגל  סטריידר</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>10</strong></td>
+                        <td align="center" class="BodyText">אקו סטריידר</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>11</strong></td>
+                        <td align="center" class="BodyText">לונה סטריידר</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>12</strong></td>
+                        <td align="center" class="BodyText">טיים סטריידר</td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>13</strong></td>
+                        <td align="center" class="BodyText">ג'אנגל  ג'אמפר</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>14</strong></td>
+                        <td align="center" class="BodyText">אקו ג'אמפר</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>15</strong></td>
+                        <td align="center" class="BodyText">לונה ג'אמפר</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>16</strong></td>
+                        <td align="center" class="BodyText">טיים ג'אמפר</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>17</strong></td>
+                        <td align="center" class="BodyText">ג'אנגל  אייס</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>18</strong></td>
+                        <td align="center" class="BodyText">אקו אייס</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>19</strong></td>
+                        <td align="center" class="BodyText">לונה אייס</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>20</strong></td>
+                        <td align="center" class="BodyText">טיים מאייס</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>21</strong></td>
+                        <td align="center" class="BodyText">ג'אנגל  מאסטר</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>22</strong></td>
+                        <td align="center" class="BodyText">אקו מאסטר</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>23</strong></td>
+                        <td align="center" class="BodyText">לונה מאסטר</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>24</strong></td>
+                        <td align="center" class="BodyText">טיים מאסטר</td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <br><span class="BodyText">נקודות חלוצים <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle">: כל מי שמצטרף לחלוצים מקבל נקודות חלוץ המאפשרות לו להשתמש ולרכוש חפצים מסויימים. נקודות החלוצים יתווספו לכם בכל יום בו מנוי החלוץ שלכם בתוקף. כאשר תיגמר תקופת חברותכם בחלוצים, תקבלו מספר ימים מוגבל בו תוכלו לחדש את מנוי החלוצים שלכם ולשמר את נקודות החלוץ שצברתם. אם לא תספיקו לחדש את מנוי החלוצים בימים אלה, יתאפסו נקודות החלוץ שלכם.					</span>
+                  <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a6"></a>מהן נקודות מנהיגות ואיך ניתן להשיג אותן?</span><br>
+                    <span class="BodyText">נקודות מנהיגות הן נקודות שניתנות לכם בעולם על ידי חבריכם. לכל אקו מעל דרגה שתיים בעולם יש זכות לתת ולקבל נקודות מנהיגות. בכל 48 שעות (ולחלוצים בכל 24 שעות) , ניתן לתת נקודת מנהיגות אחת בלבד. אקואים עם נקודות מנהיגות רבות יוכלו להשתמש בחפצים ובגדים מגניבים, ובהמשך יקבלו אפשרויות נוספות כמו להיות ראשי קבוצות. חשוב ביותר! אל תבצעו עסקאות חליפין של נקודות מנהיגות. לא לשם כך הן נועדו.  השתדלו לתת רק למי שמגיע לו ולדאוג שגם לכם יגיע. עזרו לאקואים חדשים, תרמו לקהילה שמרו על הכללים והיו מעורבים, ובלי ספק תצברו המון נקודות מנהיגות.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+					<!--
+					<p><span class="FAQTitle"><a name="a6.1"></a>מה המשמעות של תג החלוץ השקוף <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> בתפריט האישי שלי?</span><br>
+                    <span class="BodyText">תג החלוץ השקוף <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> מסמל את מספר "נקודות החלוץ" שצברת. כל מי שמצטרף לחלוצים מתחיל לצבור "נקודות חלוץ". ככל שתצברו יותר "נקודות חלוץ" תוכלו להשתמש ביותר חפצים, בגדים וכלי רכב בדרגת מגניבות שעדיין לא נראתה באקולוקו. נקודות החלוץ ייצברו עבורכם כל עוד תהיו חברים בחלוצים וכל עוד תחדשו את המנוי. אם מנוי החלוץ שלכם נגמר ולא הספקתם לחדשו תוך מספר ימים מוגבל, יתאפסו נקודות החלוץ שלכם, ותצטרכו להתחיל ולצבור אותן מחדש. אנחנו נדאג לשלוח לכם הודעה ולהזכיר לכם לחדש את המנוי כדי לשמור על נקודות החלוץ שכבר קיבלתם ולצבור נקודות נוספות.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a6.2"></a>מה המשמעות של אייקון המגילה <img src="../common/images/generationIcon.png" alt="" width="26" height="25" align="absmiddle">בתפריט האישי?</span><br>
+                  <span class="BodyText">אייקון המגילה  <span class="FAQTitle"><img src="../common/images/generationIcon.png" alt="" width="26" height="25" align="absmiddle"></span> מסמל איזה דור אתם באקולוקו, וכמה וותק צברתם בעולם. ככל שתהיו בדור מתקדם יותר, תוכלו להשתמש ביותר בגדים וחפצים, לקבל משימות המתאימות לאקואים מתקדמים, ואפילו לגלות מקומות ומסכים סודיים לאקואים מדור מתקדם בלבד. כל יום שבו תכנסו לאקולוקו ייספר, וליד המגילה תוכלו לראות כמה ימים נשארו לכם כדי להתקדם לדור הבא. בכל פעם שתתקדמו לדור הבא, גם תקבלו תואר מתקדם יותר: 
+					<br/><br/>
+                    <table width="400" border="1" cellpadding="2" cellspacing="0">
+                      <tr>
+                        <td width="50" align="center" bgcolor="#DBDCCD" class="BodyText"><strong>דור</strong></td>
+                        <td align="center" bgcolor="#DBDCCD" class="BodyText"><strong>תואר</strong></td>
+                        <td width="150" align="center" bgcolor="#DBDCCD" class="BodyText"><strong>כמה ימים עד לדור הבא?</strong></td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>1</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">ג'אנגל  נובי</span></td>
+                        <td width="150" align="center" class="BodyText">3</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>2</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">אקו נובי</span></td>
+                        <td width="150" align="center" class="BodyText">5</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>3</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">לונה נובי</span></td>
+                        <td width="150" align="center" class="BodyText">7</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>4</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">טיים נובי</span></td>
+                        <td width="150" align="center" class="BodyText">10</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>5</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">ג'אנגל  קיד</span></td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>6</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">אקוקיד</span></td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>7</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">לונהקיד</span></td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>8</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">טייםקיד</span></td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>9</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">ג'אנגל  סטריידר</span></td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>10</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">אקו סטריידר</span></td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>11</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">לונה סטריידר</span></td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>12</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">טיים סטריידר</span></td>
+                        <td width="150" align="center" class="BodyText">15</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>13</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">ג'אנגל  ג'אמפר</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>14</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">אקו ג'אמפר</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>15</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">לונה ג'אמפר</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>16</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">טיים ג'אמפר</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>17</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">ג'אנגל  אייס</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>18</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">אקו אייס</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>19</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">לונה אייס</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>20</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">טיים מאייס</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>21</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">ג'אנגל  מאסטר</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>22</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">אקו מאסטר</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>23</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">לונה מאסטר</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                      <tr>
+                        <td width="50" align="center" class="BodyText"><strong>24</strong></td>
+                        <td align="center" class="BodyText"><span dir="RTL">טיים מאסטר</span></td>
+                        <td width="150" align="center" class="BodyText">30</td>
+                      </tr>
+                    </table>
+				  </span>
+                <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_10.jpg" class="images"><br><br></p>
+					-->
+					<p><span class="FAQTitle"><a name="a7"></a>מהו אירוע קהילה וכיצד אני לוקח בו חלק?</span><br>
+                    <span class="BodyText">אירוע קהילה הוא משימה שבה יש יעד משותף לכל ילדי אקולוקו. כדי לעמוד במשימה על הקהילה כולה להתגייס ולעזור. אירועי קהילה מתקיימים באקולוקו לעיתים קרובות, (בערך פעם בחודש) ונמשכים כשבועיים. פרסים ייחודיים מחולקים בסוף אירועי הקהילה לכל האקואים שתרמו להצלחת הקהילה. כאשר יש אירוע קהילה באקולוקו, מופיע כפתור בצורת יהלום בחלק הימני העליון של המסך שלכם. לחצו עליו ותוכלו להשתתף באירוע. אירועי הקהילה פתוחים לכל האקואים, חלוצים ושאינם חלוצים, בכל הדרגות.					</span>
+                    <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a8"></a>איך קונים בחנויות?</span><br>
+                    <span class="BodyText">ברחבי אקולוקו פזורות חנויות רבות. ניתן למצוא אותן בכפר בג'ונגל, בתחנת הרכבת, בעיירה המדברית הרמוני, באקולונה ואפילו בעמק לוקוזאורס. כדי לקנות ולמכור בחנויות : הרוויחו כסף (קוקואים) דרך המשימות והמשחקים, מצאו את החנות או המספרה המבוקשת, והקליקו על החפץ שזוהר בחנות (סלסלה, כסא ספרים, דלפק מכירה, וכו'). אחרי שתקליקו על החפץ הזוהר ייפתח בפניכם תפריט קנייה/מכירה פשוט להפעלה.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a9"></a>יש לי בגד בשק החפצים ואני לא יכול ללבוש אותו, למה?</span><br>
+                    <span class="BodyText">חלק מהבגדים והאביזרים באקולוקו מוגבלים <strong>לדרגות</strong> מסוימות <img src="../common/images/levelIcon.png" alt="" width="26" height="25" align="absmiddle">, <strong>לדורות</strong> אקולוקו מסויימים <img src="../common/images/generationIcon.png" alt="" width="26" height="25" align="absmiddle">, או מחייבים כמות מינימאלית של <strong>נקודות מנהיגות</strong> <img src="../common/images/leaderIcon.png" alt="" width="26" height="25" border="0" align="absmiddle"> או <strong>נקודות חלוץ</strong> <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> . אם מצאתם או קיבלתם בגד ואינכם מצליחים ללבוש אותו, כנראה שעדיין אינכם בדרגה המתאימה, בדור המתאים, שעליכם לאסוף עוד נקודות מנהיגות או נקודות חלוץ. אופציה נוספת היא שהבגד מיועד לחלוצים בלבד, ועדיין לא הצטרפתם לחלוצים.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a10"></a>ראיתי שילדים נותנים מתנות באקולוקו. איך עושים את זה?</span><br>
+                    <span class="BodyText">כדי לתת מתנות באקולוקו, צריך לפתוח את תפריט החפצים האישי <img src="../common/images/handIcon.png" width="26" height="25" align="absmiddle"> , לבחור חפץ מכל סוג (בגד, אביזר או חפץ מיחזור) ולהקליק עליו בזמן שכפתור הCTRL במקלדת לחוץ. אז ייפתח לכם תפריט "נתינת מתנה" פשוט לתפעול. בחרו כמה חפצים אתם רוצים לארוז למתנה, אשרו את בחירתכם, והמתנה שלכם כבר בעולם.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a11"></a>מה זה אזור ההחלפות?</span><br>
+                    <span class="BodyText">נדיבות ושיתוף פעולה הן תכונות חשובות באקולוקו. הדרך הטובה ביותר לתת או להחליף חפץ בגד או פריט מיחזור, היא באזור ההחלפות. כדי להזמין חבר לאזור ההחלפות, יש ללחוץ על הדמות שלו, ואז לשלוח לו הזמנה בעזרת הכפתור הזה <img src="../common/images/tradeIcon.png" width="27" height="25" align="absmiddle">. במידה והחבר מעוניין לבצע החלפות, הוא יאשר את הבקשה ושניכם תיכנסו לאזור ההחלפות. באזור ההחלפות תוכלו לבחור אילו חפצים אתם מעוניינים להחליף בעסקה, ולראות אילו חפצים החבר שמולכם מוכן לתת בתמורה.
+					<br/>
+					חשוב לזכור!! אשרו את ההחלפה רק במידה והאקו שאתו אתם מבצעים החלפות הניח את הדברים שסיכמתם עליהם באזור ההחלפה. העסקה תאושר כאשר שני הצדדים לחצו על כפתור "אישור" <img src="../common/images/tradeIcon2.png" width="38" height="25" align="absmiddle"> . מרגע זה לא ניתן להוריד או להוסיף חפצים לאזור ההחלפות. אחרי האישור הראשון תתבקשו לאשר שנית את העסקה. הביטו היטב בחפצים שבאזור ההחלפה. הכל תקין? אשרו את העסקה. משהו לא מוצא חן בעיניכם? בטלו אותה ומיצאו אקו אחר להחליף אתו.					</span>                    
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+				  <!--
+				  <p><span class="FAQTitle"><a name="a11.1"></a>יש לי חפץ ואני לא מצליח לתת אותו או לעשות החלפות עבורו. למה זה קורה?</span><br>
+                    <span class="BodyText">חלק מן החפצים באקולוקו, במיוחד הנדירים שבהם, הינם אישיים ואינם ניתנים להעברה. 
+					</span>                    
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+				  -->
+				  <p><span class="FAQTitle"><a name="a11.2"></a>מה משמעות השעון <img src="../common/images/clockIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> המסומן ליד חלק מהחפצים באקולוקו?</span><br>
+                    <span class="BodyText">באקולוקו ישנם בגדים וחפצים מסויימים  (ומגניבים בטירוף) שנשארים אצלכם לזמן מוגבל בלבד. חפצים אלה מסומנים בשעון <img src="../common/images/clockIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> שעליו רשומים מספר הימים שעוד נשארו לכם להשתמש בבגד או בחפץ. ביום בו השעון יראה על אפס ימים, יעלם הפריט משק החפצים	<br>
+                    <u>פריטים הנרכשים בחנות הנדירים הינם פריטים קבועים ולא מוגבלים בזמן.</u>                    </span>                    
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					<!--
+					<p><span class="FAQTitle"><a name="a12"></a>כיצד משחקים בקליעה למטרה אצל ג'ני ספיידז ואצל שוקולד ג'ים?</span><br>
+                    <span class="BodyText">על מנת לשחק קליעה למטרה יש ללחוץ על המטרה המופיעה על הקיר, לאחר הלחיצה רוצו לעבר אלומת האור שתרד מהשמיים וברגע שתגיעו לעיגול המסומן לחצו על המטרה שנית. המטרה תגדל ויופיע עיגול קטן באזור המטרה – תגררו עם העכבר את העיגול עד שיכנס לטווח של המטרה, הקליקו על העכבר ושגרו חץ מדויק.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="a13"></a>כיצד מרוויחים קסדת חלל?</span><br>
+                    <span class="BodyText">קסדת חלל לא ניתן לרכוש באף אחת מהחנויות באקולוקו. בכדי להרוויח קסדת חלל יש להצליח במשימת לחץ הגזים (לחלוצים בלבד) או לקבל אותה כתגמול לסיום כל המשימות של רמה 15.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+                    -->
+                    <p><span class="FAQTitle"><a name="a14"></a>מה הן "פסגות הערפל" ואיך מגיעים אליהן?</span><br>
+                    <span class="BodyText">"פסגות הערפל" הן כינוי לשרשרת הרים המשקיפה על אקולוקו, אליה הולכים תושבי הקבע לנוח ולעסוק בפעילויות האהובות עליהם. להגיע לפסגות הערפל זה פשוט עניין של מזל. בכל יום נבחרים באופן אקראי כמה עשרות אקואים המשוגרים להרפתקת פסגות הערפל, שם ייצאו למשימות חדשות ויוכלו להרוויח פרסים נדירים. הזמן בפסגות הערפל מוגבל, אם שוגרתם לשם, נסו לנצל אותו היטב. שימו לב! ככל שתהיו יותר באקולוקו, כך יגדל הסיכוי שלכם להשתגר.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="a15"></a>מה הם "המעברים הסודיים"?</span><br>
+                    <span class="BodyText">המעברים הסודיים הינם רשת מנהרות המחברות בין הג'ונגל למדבר שנחפרו בימיו הראשונים של אקולוקו. רק אקואים וותיקים יכולים להשתמש במעברים הסודיים: המעבר הראשון נפתח בדור 11 השני בדור 12 והשלישי בדור 13.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="b1"></a>לפעמים אני לא יודע מה אני צריך לעשות. איפה מקבלים עזרה באקולוקו?</span><br>
+                  <span class="BodyText">עזרה ניתן לקבל במספר מקומות:
+					<ol>
+						<li>סרטון ההדרכה ושאלות נפוצות ותשובות  -  לחצו על כפתור סימן השאלה <img src="../common/images/helpIcon.png" alt="" width="25" height="26" border="0" align="absmiddle"> בצד ימין למעלה של המסך שלכם.</li>
+						<li>אם נתקלתם בבעיה, שאלו את סיירי אקולוקו והם ישמחו לעזור לכם. סיירי אקולוקו מסומנים בהילה של מלאך מעל לראשיהם.</li>
+						<li>בכל שעות הגלישה מסתובבים באקולוקו גם מנהלים עם כוכב זהוב מתחת לשם המשתמש שלהם. אם נתקלתם בבעיה חמורה שסייירים, שאלות ותשובות נפוצות וסרטוני הדרכה לא הצליחו לפתור לכם, שאלו את המנהלים.</li>
+					</ol>
+					</span>
+				  <br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_10.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="b2"></a>כיצד ניתן ליצור קשר עם אקולוקו?</span><br>
+                    <span class="BodyText">ניתן ליצור קשר עם אקולוקו בדרכים הבאות: 
+					<ol>
+						<li>לפניות חלוצים בנושאי תשלום <strong><a href="javascript:popUp('../common/forms/pioneersForm.html?language=iw');">הקליקו כאן</a></strong></li>
+					  <li>לפניות במקרי חרום הנוגעים לפרטיות ובטחון הגולש <strong><a href="javascript:popUp('../common/forms/911Form.html?language=iw');">הקליקו כאן</a></strong></li>
+					</ol>
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+                    
+                    <p><span class="FAQTitle"><a name="b3"></a>נרשמתי כבר לאקולוקו ואני משחק כבר כמה ימים, אבל מדי פעם אני מקבל הודעה ש"עדיין לא אישרתי את ההרשמה". מה זה אומר?</span><br>
+                    <span class="BodyText">
+                    כחלק מתהליך ההרשמה לאקולוקו, עליכם להכניס כתובת אי-מייל של ההורים. כתובת האי-מייל חייבת להיות אמיתית ופעילה. בסוף תהליך ההרשמה מערכת אקולוקו שולחת אל כתובת המייל של ההורים מייל אישור הרשמה. כדי לאשר את ההרשמה עליכם להקיש על הקישור (לינק) המסומן בתוך ההודעה. במידה והוריכם עדיין לא אישרו את ההרשמה תופיע חלונית תזכורת בכל פעם שתיכנסו לאקולוקו. שימו לב! אם הכנסתם כתובת מייל לא נכונה, תוכלו לשנות אותה בכל פעם שתכנסו לאקולוקו ומייל חדש ישלח לכתובת המתוקנת. אם בתום חודש ימים הוריכם לא יאשרו את ההרשמה לאקולוקו, לא תוכלו להמשיך ולשחק.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                  </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c1"></a>מה זה חלוץ?</span><br>
+                  <span class="BodyText">לחלוצי אקולוקו יש אחריות רבה: תפקידם לגלות עולמות ואזורים חדשים,ולפעול בנחישות להמשך הקיום של העולם והחברה שחיה בו. קהילת אקולוקו כולה סומכת עליהם.
+					<br/><br/>כדי לתמוך בהם בתפקידם האחראי וההרפתקני מקבלים החלוצים:
+					<ul>
+						<li>את הזכות לגלות אזורים חדשים לחלוצים בלבד</li>
+						<li>את היכולת לשגר את עצמם ממסך למסך על המפה</li>
+						<li>את הזכות להגיש בקשה להצטרף לסיירת אקולוקו</li>
+						<li>זכות שימוש בחפצים, תספורות, איפור ובגדים המיועדים אך ורק להם</li>
+						<li>הפעלות ומשחקים מיוחדים המיועדים לחלוצים בלבד</li>
+						<li>את הזכות לתת <strong>נקודת מנהיגות</strong> פעם ביום</li>
+					    <li>את הזכות להרוויח ולשחק במשחקי 1 על 1 חדשים</li>
+						<li>את הזכות להיכנס לשיאים היומיים</li>
+					</ul>
+					וכמובן...<br/><br/>
+					<strong>חלוצים יכולים לאמץ גורי חיות בר פצועות, ולטפל בהן עד שניתן יהיה להחזירן לטבע.</strong><br/><br/>
+					תנאי הקבלה כדי להפוך לחלוץ או חלוצה באקולוקו:
+					<ul>
+						<li>דמי חבר</li>
+						<li>חתימה על אמנת החלוץ</li>
+						<li>נכונות לתרום, לגלות ולסייר באזורים החדשים באקולוקו</li>
+						<li>נכונות לעמוד באתגרים, משימות והרפתקאות חדשות ומלהיבות</li>
+						<li>קשר עמוק לאקולוקו ורצון עז להגן עליו מפני כוחות הרשע</li>
+						<li>השלמת סדרת משימות אימון מיוחדות למועמדים לתפקיד</li>
+					</ul>
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c2"></a>כיצד מרוויחים תג חלוץ ודיסקית טיסה?</span><br>
+                    <span class="BodyText">לפני שתוכלו לטוס לחלל, תצטרכו להשלים את "גיבוש החלוצים" שמתחיל אצל סלסט בחללית "ריינבו" בג'ונגל. במהלך הגיבוש תצטרכו לבצע מספר משימות בהן תרוויחו את תג החלוץ ודיסקית הטיסה. שימו לב, המשימה האחרונה מתרחשת בחדר הסודי של אדם גרינליף אליו ניתן להגיע רק בשיגור דרך המפה                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="c3"></a>כיצד משלמים את דמי החבר של החלוצים?</span><br>
+                    <span class="BodyText">כדי לשלם את דמי החבר של החלוצים עליכם להיכנס לאקולוקו, להקיש על <strong>כפתור "הגדרות המשתמש"</strong> <img src="../common/images/toolsIcon.png" width="27" height="25" align="absmiddle"> שנמצא מצד שמאל למטה, לבחור באפשרות "חנות החלוצים" ולקנות את חבילת החלוץ שמתאימה לכם. דרך נוספת לתשלום דמי החבר היא על ידי רכישת אקו-קארד בחנויות סטימצקי, או דרך כפתור "חלוצים" בדף הבית.					</span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					<!--
+					<p><span class="FAQTitle"><a name="c4"></a>מה זה אקו-קארד?</span><br>
+                    <span class="BodyText">אקו – קארד הוא כרטיס מתנה שיאפשר לכם להפוך לחלוצים. את הכרטיס ניתן להשיג בכל סניפי סטימצקי בארץ. אחרי שרוכשים אקו – קארד ניתן להכניס את מספר תג החלוץ (מספר בן 16 ספרות שכתוב בצד האחורי של הכרטיס) בעמוד ההרשמה של אקולוקו כפתור <strong>"הפעלת אקו-קארד"</strong> ולהתחיל בהרפתקת החלוצים שלכם					</span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					-->
+					<p><span class="FAQTitle"><a name="c4.1"></a>למה התאפסו לי נקודות החלוץ <img src="../common/images/pioneerPointsIcon.png" alt="" width="25" height="26" border="0" align="absmiddle">?</span><br>
+                    <span class="BodyText">נקודות החלוץ נשמרות לכם כל עוד אתם חברים בחלוצים. כאשר נגמרת תקופת חברותכם בחלוצים, תקבלו מספר ימים מוגבל בו תוכלו לחדש את מנוי החלוצים שלכם ולשמר את נקודות החלוץ שצברתם. אם לא תספיקו לחדש את מנוי החלוצים בימים אלה, יתאפסו נקודות החלוץ שלכם.					</span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                  </p>
+               	  <p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+					<!--
+					<p><span class="FAQTitle"><a name="c5"></a>ההורים שלי לא מרשים לי להיות חלוץ – מה אפשר לעשות?</span><br>
+                    <span class="BodyText">באקולוקו יש משימות, משחקים וחברים רבים ואפשר ליהנות מדברים רבים שמיועדים לכל האקואים ולא לחלוצים בלבד. מי שרוצה לזכות בכמה ימי חלוץ במתנה יכול להיות חלק ממועצת הילדים, לענות על סקרים ולהנות מימי החלוץ שנתנו לו.
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					-->
+					<p><span class="FAQTitle"><a name="c5.1"></a>קיבלתי הודעה עם הצעה מיוחדת, מה זה אומר?</span><br>
+                    <span class="BodyText">אקואים שהוכיחו את עצמם באקולוקו והתקדמו בסולם הדרגות והדורות מקבלים מדי פעם הצעה מיוחדת להצטרף לחלוצים. ההצעה היא זמנית ומשתלמת במיוחד. אקואים שיצטרפו לחלוצים בזמן שההצעה המיוחדת פתוחה, יקבלו את כל מתנות ההצטרפות הרגילות ו...מלא קוקואים ו... את המתנה הנדירה שהובטחה להם בהצעה המיוחדת.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+                    
+                  <p><span class="FAQTitle"><a name="c6"></a>מה זה אקו-קוד?</span><br>
+                    <span class="BodyText">אקו-קוד הוא קוד (מספר בן 12 ספרות) שניתן לקבל מצוות אקולוקו במייל אשר באמצעותו האקו שלכם יקבל במתנה חפצים או ימי חלוץ. אם קבלתם אקו-קוד, על מנת להפעילו ולקבל את המתנה שלכם, הקישו את האקו-קוד שלכם אחרי שתלחצו על  הכפתור עליו כתוב <strong>"הפעלת אקו-קוד"</strong> שנמצא בעמוד ההרשמה לאקולוקו                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+
+					<p><span class="FAQTitle"><a name="d1"></a>האם חייבים להיות חלוצים כדי לאמץ גור של חיה?</span><br>
+                    <span class="BodyText">כן.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d2"></a>איפה ואיך מאמצים גור של חיה?</span><br>
+                    <span class="BodyText">כדי לאמץ גור של חיה, עליכם להגיע למרכז הצלת הגורים של משמר היער במסך של צ'רלס טי. פוט שומר היערות או במסך של דר' גזונטהייט וטרינר הג'ונגל. כמו כן תוכלו לאמץ גורי דינוזאור במדגרת הביצים שעל הר הגעש לבהבו.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_10.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d3"></a>איך מטפלים בגור?</span><br>
+                    <span class="BodyText">לכל גור יש צרכים: אוכל, נקייון ומשחק. הגורים יגידו לכם בעזרת פרצופונים מעל הראש שלהם, מה בדיוק הם צריכים בכל רגע. שימו לב לרצון הגורים ואז לחצו על כפתור החיה בתפריט שלכם ודאגו להם.					</span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d4"></a>האם הגור יישאר אצלי לתמיד?</span><br>
+                    <span class="BodyText">לא. חלוצים שהוכיחו שיש להם את הידע ואת הרצון, מקבלים גור לטיפול רק עד שהוא יהיה גדול מספיק בשביל להשתחרר חזרה לטבע. החדשות הטובות הן, שאחרי שגידלתם גור של חיה קטנה, תוכלו להתקדם לגור של חיה בינונית, ואז לגור של חיה גדולה ובסוף לגור של חיה ענקית.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d5"></a>נעלם לי גור החיה שאימצתי. למה זה קרה?</span><br>
+                    <span class="BodyText">יש שלוש סיבות שבגללן הגור שלכם יכול להיעלם:
+					<ol>
+						<li>הגור שלכם גדל מספיק ושוחרר בטבע. במקרה כזה תוכלו לחזור למרכז להצלת גורים, ולאמץ גור חדש של חיה באותו הגודל, או אפילו חיה גדולה יותר.</li>
+						<li>תקופת החלוץ שלכם נגמרה. במקרה כזה הגור שלכם יחזור למרכז להצלת גורים של משמר היער, ויחכה לכם שם עד שתחדשו את מנוי החלוצים, תוכלו לראות את הגור שלכם בלחיצה על כפתור הגורים.</li>
+						<li>לחצתם בטעות על כפתור "בית" בתפריט הגורים שלכם. לחיצה על כפתור "בית" שולח את הגור לנוח במקום אחר, והוא לא ילך מאחוריכם כרגיל. לחיצה שנייה על הכפתור תחזיר את הגור מיד למקומו הקבוע.</li>
+					</ol>
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d6"></a>האם אפשר להחליף חיה לפני תום תקופת הטיפול שלה?</span><br>
+                    <span class="BodyText">לא. טיפול בגור מצריך אחריות רבה ואנחנו מצפים מחלוצים שיהיו מספיק אחראים כדי לטפל בגור שאימצו לכל אורך הדרך.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="d7"></a>למה אני לא מצליח לאמץ חיה גדולה?</span><br>
+                    <span class="BodyText">לפני שאפשר לטפל בגור של חיה גדולה, עליכם לטפל בגור של חיה קטנה, ואז בגור של חיה בינונית. כמו בחיים, אי אפשר לדלג על שלבים.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e1"></a>כיצד אני משנה סיסמה ומעדכנ/ת את הפרטים שלי?</span><br>
+                    <span class="BodyText">בכדי לשנות סיסמה ולעדכן את פרטי המשתמש שלכם ליחצו על כפתור "הגדרות משתמש" <img src="../common/images/toolsIcon.png" width="27" height="25" align="absmiddle"> שמופיע בצד שמאל למטה, בחרו מבין הפרטים שברצונכם לשנות ואשרו את השינויים                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e2"></a>הכנסתי כתובת מייל לא נכונה ואני רוצה לשנות – מה לעשות?</span><br>
+                    <span class="BodyText">בכדי לעדכן את כתובת המייל שלכם ליחצו על כפתור "הגדרות משתמש" <img src="../common/images/toolsIcon.png" width="27" height="25" align="absmiddle"> שמופיע בצד שמאל למטה, שנו את הכתובת ואשרו את השינויים. מאוד חשוב להכניס כתובת מייל נכונה  ומדויקת בעת ההרשמה!                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e3"></a>למה צריך לבחור סיסמה חזקה?</span><br>
+                    <span class="BodyText">הסיסמה שלכם היא הדבר היחיד שמונע ממשתמשים אחרים להשתמש באקו, בבגדים ובחפצים שלכם. אם מישהו הצליח לנחש את הסיסמה שלכם, הוא יוכל להיכנס לאקו שלכם ולעשות בו כרצונו. למכור חפצים שלכם, לתת בגדים ואפילו לדבר בניגוד לחוקי העולם ולגרום להשעיה של האקו שלכם.<br/>
+					שימו לב!! בחרו סיסמה שאי אפשר לנחש. אל תשתמשו בשם המשתמש שלכם בתוך הסיסמה. שלבו אותיות ומספרים. אל תחששו מסיסמה מסובכת. מקסימום, אם תשכחו אותה נשלח לכם תזכורת לכתובת המייל שלכם. זכרו – אם אתם בוחרים סיסמה קלה כדי שיהיה לכם קל לזכור אותה, ל"פורצים" יהיה קל לנחש אותה.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e4"></a>האם מותר לי לתת את הסיסמה שלי למנהלי אקולוקו?</span><br>
+                    <span class="BodyText"><strong>לא ולא!!! אסור לתת לאף אחד את הסיסמה.</strong> מנהלי אקולוקו לעולם לא יבקשו מכם את הסיסמה שלכם, לא באקולוקו ולא באייסיקיו. אם מישהו מבקש מכם את הסיסמה, הוא פורץ ויש לדווח עליו מיד(!!!) גם אם הוא אומר שהוא מנהל באקולוקו.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_9.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e5"></a>איך אפשר להגן על השחקן שלי ועל הסיסמה שלי בצורה הטובה ביותר?</span><br>
+                    <span class="BodyText">אירגנו לכם כמה טיפים לשמירה על פרטיות השחקן ועל חשאיות הסיסמה:
+					<ol>
+						<li>לעולם לעולם לא לתת את הסיסמה שלכם לאף אחד! לא לחברים בעולם האמיתי ולא לחברים באקולוקו.</li>
+						<li>שכשמשחקים במחשב ציבורי (כמו בבית הספר) או אצל חבר יש לוודא שחלונית "זכור סיסמה" אינה מסומנת.</li>
+						<li>כדאי לזכור את הסיסמה בע"פ ולא לרשום אותה בשום מקום - אם תשכחו אותה נשלח לכם תזכורת לכתובת המייל שלכם.</li>
+						<li>הקפידו להכניס כתובת מייל (עובדת ומעודכנת!) אישית שלכם או של ההורים, שאין לילדים אחרים גישה אליה.</li>
+						<li>החליפו סיסמאות לעתים קרובות.</li>
+					</ol>
+                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_10.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e6"></a>איך להיזהר מרמאים באקולוקו?</span><br>
+                    <span class="BodyText">לצערנו, גם באקולוקו, כמו בעולם האמיתי, יש ילדים שעושים מעשים רעים. הדרך הטובה ביותר להיזהר מהם היא לשמור על החוקים של העולם.<strong> <u>לעולם לא לתת פרטים אישיים</u> כמו סיסמה, כתובת מייל, כתובת בבית או כתובת ICQ. בנוסף, לשמירה על פרטיכם האישיים צוות אקולוקו ממליץ לעולם לא לעשות עסקאות עם אקואים שאתם לא מכירים. על מנת שלא תתקלו במקרים של רמאות בחילופי חפצים או נקודות מנהיגות. רצינו גם להגיד לכם בהזדמנות זו שילדים שלא שומרים על הכללים של אקולוקו נענשים בחומרה. באקולוקו הרמאות ממש לא משתלמת.
+                    </strong></span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_1.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="e7"></a>איך מזהים מנהלים באקולוקו?</span><br>
+                    <span class="BodyText">למנהלים באקולוקו יש כוכב צהוב מתחת לשם המשתמש שלהם. כל מי שאומר שהוא מנהל ואין לו כוכב הוא מתחזה מסוכן ויש לדווח עליו מיד.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_2.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="f1"></a>מה זה הסיירת ואיך מצטרפים אליה?</span><br>
+                    <span class="BodyText">הסיירת היא קבוצת ילדים שתפקידה לעזור לילדים חדשים באקולוקו. ניתן לזהות את חברי הסיירת בעזרת הילה של מלאך שיש להם מעל הראש. כדי להצטרף לסיירת יש להיות בדרגה 10 ומעלה, לפחות בדור 6 ולהוכיח רצון לעזור לילדים חדשים. כל חלוץ יכול להגיש בקשה רשמית להצטרף דרך כפתור סימן השאלה מימין למעלה. מי שיעמוד בכל התנאים האלה, ויעבור את וועדת הקבלה של צוות אקולוקו יוזמן למפגש סיירת ויקבל הילה של מלאך.
+</span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_3.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="f2"></a>אני כבר סייר ורוצה להתקדם ולהיות סייר 2. איך מתקבלים?</span><br>
+                    <span class="BodyText">מתוך הסיירים שיבצעו את תפקידם בצורה הטובה ביותר, ייבחרו על ידי מנהלי אקולוקו סיירי 2 שיקבלו יכולות מיוחדות על מנת לבצע את תפקידם.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_4.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="g1"></a>מה קורה לאקו שלא מכבד את הכללים?</span><br>
+                    <span class="BodyText">אקואים שלא יעמדו בכללים וייפגעו בהרגשתם הטובה ובהרגשת הביטחון של חבריהם יורחקו מיידית מאקולוקו.בכדי לדווח על אקו שלא עמד בכללים עליך להקליק עליו ולפתוח את התפריט האישי שלו. לחיצה על הציור של המשרוקית <img src="../common/images/whistleIcon.png" width="27" height="25" align="absmiddle"> תפתח חלונית שדרכה תוכל לשלוח דיווח לצוות אקולוקו.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_5.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="g2"></a>מה אנחנו עושים עם הדיווחים שאתם שולחים אלינו דרך כפתור המשרוקית?</span><br>
+                    <span class="BodyText">כל הדיווחים שאתם שולחים לצוות אקולוקו נבדקים ומטופלים בהתאם לצורך - ילדים שעוברים על כללי העולם - נענשים בחומרה. בנוסף לדיווחים החשובים שלכם, כל השיחות באקולוקו נשמרות ונבדקות על מנת לאתר ילדים שעברו על כללי התנהגות.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_6.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="g3"></a>האם אני יכול לצ'וטט בפרטיות בלי שאף אחד יראה?</span><br>
+                    <span class="BodyText">ביטחונם והרגשתם הטובה של הילדים שגולשים באקולוקו הם הדברים הכי חשובים לנו. כדי לוודא שכל האקואים עומדים בחוקי אקולוקו, הדרך היחידה לשוחח בפרטיות באקולוקו היא באמצעות המסרונים האישיים.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+                  	<p align="center"><img src="../common/images/strip_7.jpg" class="images"><br><br></p>
+					
+					<p><span class="FAQTitle"><a name="g4"></a>כמה שעות ביום אפשר לשחק באקולוקו?</span><br>
+                    <span class="BodyText">אנחנו באקולוקו מאמינים, שלמרות שלשחק באקולוקו זה אחד הדברים הכי כייפיים שיש בעולם, אסור שזה יהיה הכיף היחידי. אנחנו מאמינים שחברים, <span dir="RTL">משחקים </span> בחוץ, קריאת ספרים ולהיות עם המשפחה זה חשוב לפחות כמו אקולוקו. זאת בדיוק הסיבה שניתן לשחק באקולוקו כל יום מקסימום 6 שעות.                    </span>
+					<br>
+                    <a href="#top" class="faqQuestions" style="text-align:left; font-size:12px; float:left">חזרה למעלה.</a>
+                    <br><br>
+                    </p>
+               	  <p align="center"><img src="../common/images/strip_8.jpg" class="images"><br><br></p>                </td>
+				   <td width="230" valign="top">
+                    <div style="margin-left:20px; height:447;">
+                       <script language="javascript">
+							if (AC_FL_RunContent == 0) {
+								alert("This page requires AC_RunActiveContent.js.");
+							} else {
+								AC_FL_RunContent(
+									'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+									'width', '180',
+									'height', '460',
+									'src', sideMenuSwf,
+									'quality', 'high',
+									'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+									'align', 'middle',
+									'play', 'true',
+									'loop', 'true',
+									'scale', 'showall',
+									'wmode', 'transparent',
+									'devicefont', 'false',
+									'id', 'Menu',
+									'bgcolor', '#ffffff',
+									'name', 'Menu',
+									'menu', 'true',
+									'allowFullScreen', 'true',
+									'allowScriptAccess','sameDomain',
+									'movie', sideMenuSwf,
+									'salign', ''
+									); //end AC code
+							}
+						  </script>
+                  </div>                </td>
+              </tr>
+            </table>
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer_iw.jpg" style="position:relative; left:-28px"> 
+      <br>
+     <span  class="footerText" style="position:relative; left:-26px;"><a href="Parents_About.html" class="footerLinks">אודות החברה</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">תנאי שימוש</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks">פרטיות</a>  |  <a href="Help_Contact.html" class="footerLinks">צור קשר</a>  |   <a href="Site_Map.html" class="footerLinks">מפת האתר</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2011 virtual tweens Ltd.</span></td>
+    </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.web.enment.net");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker2 = _gat._getTracker("UA-3886828-1");
+      pageTracker2._setDomainName("mako.co.il");
+      pageTracker2._trackPageview();
+  } catch(err) {}
+</script>
+</html>

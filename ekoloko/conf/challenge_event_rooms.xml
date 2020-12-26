@@ -1,0 +1,6 @@
+<events>
+  <event id="72" exclude="1" hideHoursBeforeEnd="0" languages="iw">
+    <room id="874"></room>
+    <room id="875"></room>
+   </event>
+</events>

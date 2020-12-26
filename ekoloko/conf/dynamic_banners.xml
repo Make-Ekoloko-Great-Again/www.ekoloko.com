@@ -1,0 +1,39 @@
+<banners>
+   <special_offers>
+    <banners_group gender="3" levels="1-100" days_played="3-10000" seniority_levels="1-100" premium="2" premium_days_left="0-10000" ranger_levels="0-4">
+      <!-- <banner id="top" frame_url="./website/common/genericBanner2.html" swf_url="banners/dynamic_banners/banner_specialOffer1_bottom"></banner
+      <banner id="bottom" frame_url="./website/common/genericBanner2.html" swf_url="banners/dynamic_banners/banner_specialOffer1_bottom"></banner> -->
+      <banner id="left" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_specialOffer1_left" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=1"></banner>
+      <banner id="right" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_specialOffer1_right" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=1"></banner>
+    </banners_group> 
+    <banners_group gender="3" levels="1-100" days_played="3-10000" seniority_levels="1-100" premium="2" premium_days_left="0-10000" ranger_levels="0-4">
+      <!-- <banner id="top" frame_url="./website/common/genericBanner2.html" swf_url="banners/dynamic_banners/banner_specialOffer1_bottom"></banner 
+      <banner id="bottom" frame_url="./website/common/genericBanner2.html" swf_url="banners/dynamic_banners/banner_specialOffer2_bottom"></banner> -->
+      <banner id="left" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_specialOffer2_left" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=2"></banner>
+      <banner id="right" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_specialOffer2_right" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=2"></banner>
+    </banners_group>   
+  </special_offers>
+  <renewal_rewards>
+      <banners_group gender="3" levels="1-100" days_played="3-10000" seniority_levels="1-100" premium="2" premium_days_left="1-10000" ranger_levels="0-4">
+        <banner id="left" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_renewalReward1_left" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=11"></banner>
+        <banner id="right" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_renewalReward1_right" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=11"></banner>
+      </banners_group>
+      <banners_group gender="3" levels="1-100" days_played="3-10000" seniority_levels="1-100" premium="2" premium_days_left="1-10000" ranger_levels="0-4">
+        <banner id="left" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_renewalReward2_left" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=12"></banner>
+        <banner id="right" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_renewalReward2_right" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=12"></banner>
+      </banners_group>  
+  </renewal_rewards>
+  <general>
+	<banners_group gender="3" levels="1-100" days_played="1-10000" seniority_levels="1-100" premium="0" premium_days_left="1-7" ranger_levels="0-4">
+      <banner id="right" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_pioneer13end_right" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=12"></banner>
+      <banner id="left" frame_url="./website/common/genericBanner.html" swf_url="banners/dynamic_banners/banner_pioneer13end_left" link_url="https://play.ekoloko.com/ekoloko/website/iw/subscriptionStore.html?dBanners=12"></banner>
+  </banners_group>
+
+	
+  </general>
+
+  <defaults>
+  <banners_group gender="3" premium="2">
+  </banners_group>
+	</defaults>
+</banners>

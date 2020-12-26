@@ -1,0 +1,71 @@
+
+<data>
+  <main_version>67</main_version>
+  <zones version="2">
+    <zone id="1" version="2"/>
+    <zone id="2" version="2"/>
+    <zone id="3" version="1"/>
+  </zones>
+  <rooms version="5">
+    <room id="887" version=""/>
+    <room id="886" version=""/>
+  </rooms>
+  <items_images version="0">
+    <item id="377" version="1"/>                            
+  </items_images>
+  <single_player_games version="0">     
+    <game id="113" version="1"/>
+  </single_player_games>
+  <one_on_one_games version="0">
+    <game id="217" version="1"/>                              
+  </one_on_one_games>
+  <animal_games version="0">
+    <game id="1" version="0"/>
+  </animal_games>
+  <in_world_games>0</in_world_games>    
+  <house>9</house>
+  <popups>7</popups>              
+  <preloaders>5</preloaders>  
+  <random_events>4</random_events>                                                  
+  <quest_images>67</quest_images>
+  <map>22</map>
+  <animals>1</animals>
+  <npcs>25</npcs>
+  <sound>3</sound>
+  <text>6</text>
+  <help_popups>4</help_popups>
+  <premium_clip_version>0</premium_clip_version>
+  <login>29</login>
+  <community_event>18</community_event>
+  <emoticons>1</emoticons>
+  <recycle_bins>0</recycle_bins>
+  <recycle_items>5</recycle_items>
+  <security_form>1</security_form>
+  <cards>11</cards>
+  <potions>1</potions>
+  <credits_store>16</credits_store>
+  <community_gender_challenge>24</community_gender_challenge>
+  <banner_logics>2</banner_logics>
+  <multiplayer_tasks>9</multiplayer_tasks>
+  
+  <STATIC_DATA>
+    <ANIMAL_DATA id="0" version="0"/>
+  	<CARDS_DATA id="1" version="0"/>
+  	<CREDITS_STORE_STATIC_DATA_1 id="2" version="0"/>
+  	<CREDITS_STORE_STATIC_DATA_2 id="3" version="0"/>
+  	<EMOTICONS_DATA id="4" version="0"/>
+  	<GAMES_DATA id="5" version="0"/>
+  	<HOUSE_DATA id="6" version="0"/>
+  	<HOUSE_GARDEN_DATA id="7" version="0"/>
+  	<ITEMS_DATA id="8" version="0"/>
+  	<NPCS_DATA id="9" version="0"/>
+  	<QUEST_GROUPS_DATA id="10" version="0"/>
+  	<RECYCLE_ITEMS_DATA id="11" version="0"/>
+  	<ROOMS_DATA id="12" version="0"/>
+  	<SENIORITY_LEVELS_DATA id="13" version="0"/>
+  	<STORES_DATA_1 id="14" version="0"/>
+  	<STORES_DATA_2 id="15" version="0"/>
+  	<RECYCLE_BIN_DATA id="16" version="0"/>
+	</STATIC_DATA>
+    
+</data>

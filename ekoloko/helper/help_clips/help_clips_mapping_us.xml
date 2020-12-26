@@ -1,0 +1,24 @@
+<help_clips>
+  <help_clip id="intro_continue" url="intro_continue_en.swf" desc="-"/>
+  <help_clip id="welcome" url="clip_1_en.swf" desc="-"/>
+  <help_clip id="adopt_animal" url="clip_2_en.swf" desc="-"/>
+  <help_clip id="continue_meta" url="clip_3_en.swf" desc="-"/>
+  <help_clip id="animal_extra_data" url="clip_4_en.swf" desc="-"/>
+  <help_clip id="before_enter_house" url="clip_5_en.swf" desc="-"/>
+  <help_clip id="helper_toggling" url="clip_6_en.swf" desc="-"/>
+  <help_clip id="goto_basketball" url="clip_6_en.swf" desc="-"/>
+  <help_clip id="basketball_explain" url="clip_7_en.swf" desc="-"/>
+  <help_clip id="helper_over" url="clip_8_en.swf" desc="-"/>
+  <help_clip id="help_animal" url="help_animal_en.swf" desc="-"/>
+  <help_clip id="goto_charles" url="clip_9_en.swf" desc="-"/>
+  <help_clip id="help_inventory" url="clip_10_en.swf" desc="-"/>
+  <help_clip id="recycle_goto_basketball" url="clip_11_en.swf" desc="-"/>
+  <help_clip id="helper_over_map" url="clip_12_en.swf" desc="-"/> 
+  <help_clip id="before_click_inventory" url="clip_13_en.swf" desc="-"/>
+  <help_clip id="introduce_potions_album" url="potions_album_1_en.swf" desc="-"/>
+  <help_clip id="introduce_potions_album_layer" url="potions_album_2_en.swf" desc="-"/>       
+  <help_clip id="recycle_goto_basketball_no_house" url="clip_16_en.swf" desc="-"/>
+  <help_clip id="goto_dolphinfin" url="clip_15_en.swf" desc="-"/>     
+  <help_clip id="continue_meta_short" url="clip_14_en.swf" desc="-"/>   
+  <help_clip id="help_inventory_go_to_house" url="clip_17_en.swf" desc="-"/>   
+</help_clips>

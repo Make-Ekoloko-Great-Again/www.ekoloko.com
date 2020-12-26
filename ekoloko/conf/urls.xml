@@ -1,0 +1,755 @@
+<urls>
+  <register>
+    <protocol>protocol_http</protocol>
+  	<app>app_ekoloko</app>
+  	<page>./login.html?register=1&language=</page>
+  </register>  
+  <registration>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>register.action</page>
+  </registration>  
+  <relogin>
+    <protocol>protocol_http</protocol>
+  	<app>app_ekoloko</app>
+  	<page>login.html</page>
+  </relogin>
+  <i18n>
+    <protocol>protocol_http</protocol>
+  	<app>app_i18n</app>
+  	<page></page>
+  </i18n>
+  <contacts>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>contacts</page>
+  </contacts>
+  <login>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>login.action</page>
+  </login>
+  <captcha>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>captcha3</page>
+  </captcha>
+  <captcha5>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>             
+  	<page>captcha</page>
+  </captcha5>  
+  <captcha3>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>captcha3</page>
+  </captcha3>  
+  <support>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>cssupport.action</page>
+  </support>
+  <user_details>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>getData.action</page>
+  </user_details>  
+  <invite_a_friend>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>inviteFriend.action</page>
+  </invite_a_friend> 
+  <print_avatar>
+    <protocol>protocol_http</protocol>
+  	<app>app_ekoloko</app>
+  	<page>printme.html</page>
+  </print_avatar> 
+  <forgot_password>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>forgotPassword.action</page>
+  </forgot_password> 
+  <cahnge_password>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>changePassword.action</page>
+  </cahnge_password> 
+  <getAccountDetails>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>getDetails.action</page>
+  </getAccountDetails>
+  <updateAccountDetails>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>changeDetails.action</page>
+  </updateAccountDetails>  
+  <purchaseRequest>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>purchaseRequest.action</page>
+  </purchaseRequest>     
+  <cardBalance>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>cardBalance.action</page>
+  </cardBalance>  
+  <cardRedeem>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>redeemCard.action</page>
+  </cardRedeem>       
+  <promoCard>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>promoCard.action</page>
+  </promoCard>     
+  <link_me>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>sendLink.action</page>
+  </link_me> 
+  <accountActivation>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>activateAccount.action</page>
+  </accountActivation>
+  <contactUs911>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>contactUs911.action</page>
+  </contactUs911>   
+  <contactUsPioneer>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>contactUsPioneer.action</page>
+  </contactUsPioneer>   
+  <contactUsGeneral>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>contactUsGeneral.action</page>
+  </contactUsGeneral>     
+  <resetActivationKey>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>changeConfirmEmail.action</page>
+  </resetActivationKey>    
+  <rangerApplication>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>rangerApplication.action</page>
+  </rangerApplication>  
+  <usernameValidation>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>validateUsername.action</page>
+  </usernameValidation>    
+  <deleteAccount>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>deleteAccountRequest.action</page>
+  </deleteAccount>  
+  <deleteAccountConfirmation>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>deleteAccountConfirmation.action</page>
+  </deleteAccountConfirmation>    
+  <removeEmail>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>removeFromEmailList.action</page>
+  </removeEmail>
+  <ravtavCardBalance>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>ravtavCardBalance.action</page>
+  </ravtavCardBalance>  
+  <ravtavRedeemCard>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>ravtavRedeemCard.action</page>
+  </ravtavRedeemCard>  
+  <allProductsData>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>getAllProductsData.action</page>
+  </allProductsData>  
+  <productData>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>getProductData.action</page>
+  </productData>      
+  <isPayingUserData>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>isAPayingUser.action</page>
+  </isPayingUserData>    
+  <zongFrame>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>zongFrame.action</page>
+  </zongFrame>    
+  <praxellEwalletRedeemCard>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>praxellEwalletRedeemCard.action</page>
+  </praxellEwalletRedeemCard>    
+  <praxellEwalletBalance>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>praxellEwalletBalance.action</page>
+  </praxellEwalletBalance>
+  <allopassFrameUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>allopassPayment.action</page>
+  </allopassFrameUrl>  
+  <mailFormUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>mailForm.action</page>
+  </mailFormUrl>    
+  <pelecardPurchaseUrl>
+    <protocol>protocol_https</protocol>
+  	<app>app_web</app>
+  	<page>pelecard.action</page>
+  </pelecardPurchaseUrl>          
+  <securityCheckData>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>securityCheckData.action</page>
+  </securityCheckData> 
+	<securityQuestionsData>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>securityAllQuestionsData.action</page>
+  </securityQuestionsData>  
+	<validateSecurityForm>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>validateSecurityForm.action</page>
+  </validateSecurityForm>    
+  <creditsCardBalance>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>creditsCardBalance.action</page>
+  </creditsCardBalance>  
+  <creditsCardRedeemCard>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>creditsRedeemCard.action</page>
+  </creditsCardRedeemCard>   			
+  <paycallGetCode>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>paycallGetCode.action</page>
+  </paycallGetCode>     	
+  <paycallValidateCode>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>paycallValidateCode.action</page>
+  </paycallValidateCode>     	
+  <paycallCheckAge>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>paycallAgeCheck.action</page>
+  </paycallCheckAge> 
+  <staticDataUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_json</app>
+  	<page></page>
+  </staticDataUrl>  
+  <removeFromUserEmailListUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>removeUserEmailFromList.action</page>
+  </removeFromUserEmailListUrl>  
+  <removeFromParentsEmailListUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>removeParentsEmailFromList.action</page>
+  </removeFromParentsEmailListUrl>  
+  <addToUserEmailListUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>addUserEmailToList.action</page>
+  </addToUserEmailListUrl>  
+  <addToParentsEmailListUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>addParentsEmailToList.action</page>
+  </addToParentsEmailListUrl>    
+  <resetPasswordRequestUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>resetPasswordRequest.action</page>
+  </resetPasswordRequestUrl>  
+  <resetPasswordUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>resetPassword.action</page>
+  </resetPasswordUrl>
+  <registrationItemsUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>getRegistrationItemsData.action</page>
+  </registrationItemsUrl>      
+  <publicDetailsUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>getPublicDetails.action</page>
+  </publicDetailsUrl>  
+  <generalCSUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>generalCS.action</page>
+  </generalCSUrl>  
+  <badRegistrationEmailUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>badRegistrationEmail.action</page>
+  </badRegistrationEmailUrl>  
+  <removeFromCRMUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>wrongEmail.action</page>
+  </removeFromCRMUrl>  
+  <introClipUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_ekoloko</app>
+  	<page>website/common/register/intro_clip</page>
+  </introClipUrl> 
+  <mobileRegCompleteUrl>
+    <protocol>protocol_http</protocol>
+  	<app>app_web</app>
+  	<page>mobileCompleteRegistration.action</page>
+  </mobileRegCompleteUrl>   
+          
+  <tags>
+  	<tag id='hanukia'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>world_room_links/hanukaContest/hanuka.html</page>
+  	</tag>
+  	<tag id='amana'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>world_room_links/amanaHtml/index.html</page>
+  	</tag> 
+  	<tag id='printme_tubishvat'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>PrintMe_Cat.html</page>
+  	</tag> 
+	  <tag id='tubishvat_gallery'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>world_room_links/tubishvatGallery/index.html</page>
+  	</tag>
+    <tag id='amana_pioneer'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>world_room_links/amanaHtml/pioneer.html</page>
+  	</tag> 
+  	<tag id='printme_adam'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>PrintMe_Adam.html</page>
+  	</tag> 
+  	<tag id='printme_featherCloud'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>printMe_featherCloud.html</page>
+  	</tag> 
+  	<tag id='waterHevra'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+        <page>world_room_links/waterHevra/waterHevra.html</page>
+    </tag>
+  	<tag id='waterEvent'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+     	 <page>world_room_links/waterEventGallery/index.html</page>
+  	</tag>
+  	<tag id='stimazki_max'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+        <page>world_room_links/stimazki/books_max.html</page>
+  	</tag>
+  	<tag id='stimazki_mas'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+        <page>world_room_links/stimazki/books_massiamara.html</page>
+  	</tag>
+  	<tag id='stimazki_cat'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+  	 	  <page>world_room_links/stimazki/books_cat.html</page>
+  	</tag>
+	<tag id='stimazki_charls'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+  	 	  <page>world_room_links/stimazki/books_charls.html</page>
+  	</tag>
+	<tag id='stimazki_dolphin'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+  	 	  <page>world_room_links/stimazki/books_dolphin.html</page>
+  	</tag>
+	<tag id='stimazki_dida'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+  	 	  <page>world_room_links/stimazki/books_dida.html</page>
+  	</tag>
+	<tag id='stimazki_hitklif'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+  	 	  <page>world_room_links/stimazki/books_hitklif.html</page>
+  	</tag>
+	<tag id='stimazki_dolz'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+  	 	  <page>world_room_links/stimazki/books_dolz.html</page>
+  	</tag>
+	<tag id='stimazki_thunder'>
+  	    <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+  	 	  <page>world_room_links/stimazki/books_thunder.html</page>
+  	</tag>
+  	<tag id='stimazki_mczaurus'>
+    	    <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+    	 	  <page>world_room_links/stimazki/books_mczaurus.html</page>
+    	</tag>
+  	<tag id='kidsMuseum_thunder'>
+    	    <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+    	 	  <page>world_room_links/kidsMuseum/riddle_thunder.html</page>
+    	</tag>
+  	<tag id='kidsMuseum_samra'>
+    	    <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+    	 	  <page>world_room_links/kidsMuseum/riddle_samra.html</page>
+    	</tag>
+  	<tag id='dinoSign'>
+    	    <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+    	 	  <page>world_room_links/dinoSign/dinoSign.html</page>
+    	</tag>
+  	<tag id='fire_html'>
+    	    <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+    	 	  <page>world_room_links/fireHtml/fire_html.html</page>
+    	</tag>
+  	<tag id='TimeTable'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>studio/timetable.html</page>
+    	</tag>
+  	<tag id='NewYears'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>newYears.html</page>
+    	</tag>
+  	<tag id='sukot'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/sukkotGallery/index.html</page>
+    	</tag>
+  	<tag id='VotingBanners'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>donation_campaigns/html/index.html</page>
+    	</tag>
+  	<tag id='passoverBadge'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/iw/PassoverParty.html</page>
+    	</tag>
+  	<tag id='earthDayInfo'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/earthDay/index.html</page>
+    	</tag>
+  	<tag id='secretPassageSign'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/secretPassage/secret_passage.html</page>
+    	</tag>
+  	<tag id='reshutHaTeva'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/rashutHaTeva/index.html</page>
+    	</tag>
+  	<tag id='franceFriends'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/frence_friends/index.html</page>
+    	</tag>
+  	<tag id='security'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/security/index.html</page>
+    	</tag>
+  	<tag id='pioneerShop_iw'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/iw/subscriptionStore.html</page>
+    	</tag>
+  	<tag id='waterParkCupon'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/waterPark/cupon.html</page>
+    	</tag>
+  	<tag id='waterParkQuestions'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/waterPark/questions.html</page>
+    	</tag>
+  	<tag id='kohavNolad'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/kohavNolad/gallery/index.html</page>
+    	</tag>
+  	<tag id='blog'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/blogRedirect.html</page>
+    	</tag>
+  	<tag id='lupa'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/iw/LupaShirt.html</page>
+    	</tag>
+  	<tag id='fnac'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/fnac/index.html</page>
+    	</tag>
+  	<tag id='tubishvat2011'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/iw/TuBishvat.html</page>
+    	</tag>
+    <tag id='purim'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/iw/PurimParty.html</page>
+    	</tag>
+  	<tag id='greece_scroll'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/greeceScroll/index.html</page>
+    	</tag>
+  	<tag id='greece_podium'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/democracy/index.html</page>
+    	</tag>
+  	<tag id='hagada'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/iw/Hagada.html</page>
+    	</tag>
+  	<tag id='shavuot2011'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/iw/ShavuotParty.html</page>
+    	</tag>  
+  	<tag id='galileo_katav'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/common/forms/GalileoKatavForm.html</page>
+    	</tag>      
+      	<tag id='boopy'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>world_room_links/boopy/redirect.html</page>
+    	</tag>
+    	<tag id='sunAndSolar'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>world_room_links/SunAndSolar/redirect.html</page>
+    	</tag>  
+    	<tag id='sukotParty'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>website/iw/SukkotParty.html</page>
+      	</tag>
+    	<tag id='WaterPurification'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>world_room_links/WaterPurification/redirect.html</page>
+      	</tag>  
+    	<tag id='poalimInfo'>
+              <protocol>protocol_http</protocol>
+        	    <app>app_ekoloko</app>
+          		<page>world_room_links/poalim/dan_info.html</page>
+      	</tag>
+    	<tag id='poalimPrize'>
+              <protocol>protocol_http</protocol>
+        	    <app>app_ekoloko</app>
+          		<page>world_room_links/poalim/dan_prize.html</page>
+      </tag>   
+      <tag id='hanukaParty'>
+              <protocol>protocol_http</protocol>
+                <app>app_ekoloko</app>
+                  <page>website/iw/HanukaParty.html</page>
+      </tag>
+      <tag id='shafdanInfo'>
+              <protocol>protocol_http</protocol>
+                <app>app_ekoloko</app>
+                  <page>world_room_links/shafdan/shafdan_info.html</page>
+      </tag>
+      <tag id='shafdanPrize'>
+              <protocol>protocol_http</protocol>
+                <app>app_ekoloko</app>
+                  <page>world_room_links/shafdan/index.html</page>
+      </tag> 
+      <tag id='galileo_dino2'>
+            <protocol>protocol_http</protocol>
+              <app>app_ekoloko</app>
+              <page>world_room_links/galileo/galileo_info.html</page>
+      </tag>
+      <tag id='galileo_dino'>
+            <protocol>protocol_http</protocol>
+            <app>app_ekoloko</app>
+            <page>world_room_links/galileo/redirect.html</page>
+      </tag>
+      <tag id='purim_party_12'>
+        <protocol>protocol_http</protocol>
+        <app>app_ekoloko</app>
+        <page>website/iw/PurimParty.html</page>
+      </tag>       
+  	  <tag id='shaman_info'>
+        <protocol>protocol_http</protocol>
+  	    <app>app_ekoloko</app>
+    		<page>world_room_links/ShamenInfo/redirect.html</page>
+    	</tag>
+  	  <tag id='TzometPassover'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>website/iw/TzometPassover.html</page>
+    	</tag>
+  	  <tag id='blogNew'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>world_room_links/blogNewRedirect.html</page>
+    	</tag>    
+  	  <tag id='TzometPot'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>website/iw/TzometPot.html</page>
+    	</tag>     
+  	  <tag id='summerParty'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>website/iw/SummerParty.html</page>
+    	</tag>      
+  	  <tag id='galileo_alien'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>world_room_links/galileo/redirect.html</page>
+    	</tag>
+  	  <tag id='galileo_alien2'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>world_room_links/galileo/galileo_info2.html</page>
+    	</tag>
+  	  <tag id='ipadContest'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>website/iw/Contest.html</page>
+    	</tag>  
+      <tag id='rangers_info'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>world_room_links/rangersInfo/redirect.html</page>
+    	</tag> 
+      <tag id='newbook'>
+        <protocol>protocol_http</protocol>
+        <app>app_ekoloko</app>
+        <page>website/iw/NewBook.html</page>
+      </tag> 
+      <tag id='TzometMasiamara'>
+          <protocol>protocol_http</protocol>
+          <app>app_ekoloko</app>
+          <page>website/iw/TzometMasiamara.html</page>
+      </tag>      
+  	  <tag id='elite_chocolate_pile'>
+            <protocol>protocol_http</protocol>
+      	    <app>app_ekoloko</app>
+        		<page>world_room_links/elite_chocolate/index.html</page>
+    	</tag>           
+      <tag id='purim13party'>
+            <protocol>protocol_http</protocol>
+            <app>app_ekoloko</app>
+            <page>website/iw/Purim13Party.html</page>
+      </tag>     
+      <tag id='galileo13html'>
+            <protocol>protocol_http</protocol>
+            <app>app_ekoloko</app>
+            <page>website/iw/Galileo13.html</page>
+        </tag>
+      <tag id='galileo13link'>
+            <protocol>protocol_http</protocol>
+            <app>app_ekoloko</app>
+            <page>world_room_links/galileo13/redirect.html</page>
+      </tag>
+      <tag id='elite_chocolate_pile2'>
+            <protocol>protocol_http</protocol>
+            <app>app_ekoloko</app>
+            <page>world_room_links/elite_chocolate/index2.html</page>
+      </tag>
+      <tag id='buddyListContest'>
+          <protocol>protocol_http</protocol>
+          <app>app_ekoloko</app>
+          <page>website/iw/BuddyListContest.html</page>
+      </tag>
+      <tag id='galileoNemiya'>
+          <protocol>protocol_http</protocol>
+    	    <app>app_ekoloko</app>
+      		<page>website/iw/Galileo_Nemiya.html</page>
+    	</tag>    
+      <tag id='eliteGold'>
+          <protocol>protocol_http</protocol>
+          <app>app_ekoloko</app>
+          <page>world_room_links/elite_gold/Prize_Pyramid.html</page>
+      </tag>  
+  	 <tag id='fireIceparty'>
+          <protocol>protocol_http</protocol>
+          <app>app_ekoloko</app>
+          <page>website/iw/Hanuka13Party.html</page>
+     </tag>      
+  	 <tag id='ekoApp'>
+          <protocol>protocol_http</protocol>
+          <app>app_ekoloko</app>
+          <page>website/iw/Ekoloko_App.html</page>
+    </tag>  
+  	<tag id='theletBook'>
+          <protocol>protocol_http</protocol>
+          <app>app_ekoloko</app>
+          <page>world_room_links/thelet/bookRedirect.html</page>
+    </tag>    
+  	<tag id='purimParty14'>
+          <protocol>protocol_http</protocol>
+          <app>app_ekoloko</app>
+          <page>website/iw/Purim14Party.html</page>
+    </tag>  
+    <tag id='mundialSale'>
+          <protocol>protocol_http</protocol>
+          <app>app_ekoloko</app>
+          <page>world_room_links/mundial2014/MundialSale.html</page>
+    </tag>
+    <tag id='Holidays_2014'>
+      <protocol>protocol_http</protocol>
+      <app>app_ekoloko</app>
+      <page>world_room_links/Holidays_2014/Holidays_2014.html</page>
+    </tag> 
+    <tag id='event'>
+      <protocol>protocol_http</protocol>
+      <app>app_ekoloko</app>
+      <page>world_room_links/event/index.html</page>
+    </tag>                             	    	
+  </tags>
+</urls>

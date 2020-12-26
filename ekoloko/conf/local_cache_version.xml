@@ -1,0 +1,11 @@
+<cache_versions>
+  <cache name="items"             id="0" version="12/8/13"/>
+  <cache name="rooms"             id="1" version="12/8/13"/>
+  <cache name="animal_stores"     id="3" version="12/8/13"/>
+  <cache name="stores"            id="4" version="12/8/13"/>
+  <cache name="recycle_bins"      id="5" version="12/8/13"/>
+  <cache name="house"             id="6" version="12/8/13"/>
+  <cache name="cards"             id="7" version="12/8/13"/>
+  <cache name="login_static_data" id="2" version="12/8/13"/><!-- card_albums, recycle_items, games, quizes, animal_games, npcs, emoticons, seniority_levels-->
+</cache_versions>
+

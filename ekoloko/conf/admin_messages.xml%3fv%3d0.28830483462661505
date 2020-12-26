@@ -1,0 +1,142 @@
+﻿ <data>
+  <messages>
+    <message id="1" type="1">
+      <text lang="iw">#שמרו על פרטיכם האישיים ואל תתנו אותם #,לאף אחד כולל שם משפחה, עיר/יישוב#,כתובת מדויקת, בית ספר, טלפון, אימייל# ..אייסיקיו, סקייפ, חשבון פייסבוק ועוד</text>
+    </message>
+    <message id="2" type="1">
+      <text lang="iw">#בואו נשמור על אקולוקו בטוח #מסירה ובקשה של פרטים אישיים# ! אסורה בהחלט</text>
+    </message>    
+    <message id="3" type="1">
+      <text lang="iw">#למנהלים באקולוקו אין איסיקיו או פייסבוק #היזהרו ממי שמציע לכם# איסיקיו או פייסבוק של מנהל #!אלה מתחזים שמנסים לרמות אתכם</text>
+    </message>
+    <message id="4" type="1">
+      <text lang="iw">#זכרו – אין להשתמש בשפה פוגענית #באקולוקו. אסור לקלל, להשתמש בשפה# גסה להעליב או לפגוע במכוון #.באקואים אחרים</text>
+    </message>   
+    <message id="5" type="1">
+      <text lang="iw">#לעולם אל תשנו את כתובת המייל של הדמות #שלכם לבקשת אקואים אחרים, מי שמבקש# שתשנו את המייל למייל מסוים מנסה להיכנס# .לדמות שלכם</text>
+    </message>    
+    <message id="6" type="1">
+      <text lang="iw">#אל תמסרו את המייל או את הסיסמא שלכם# :לאף אחד. אנחנו באקולוקו לא צריכים אותם #לא כדי לתת פרסים ולא כדי להפוך אתכם#.לסיירים</text>
+    </message>         
+    <message id="7" type="1">
+      <text lang="iw">שימרו על הפריטים שלכם, כשקופצת הודעת #אישור ההחלפות – חכו כמה שניות, ודאו #שהחפצים שאתם מוסרים, ואלה שאתם# מקבלים הם באמת אלה שבחרתם, ושאתם# .באמת מעוניינים להשלים את ההחלפה</text>
+    </message>
+  <message id="8" type="1">
+      <text lang="iw">#שימרו על הפריטים שלכם. אל תתנו לאף אחד למדוד בגדים ופריטים אחרים. להחלפות #.השתמשו רק במערכת ההחלפות החכמה</text>
+    </message>    
+  <message id="9" type="1">
+      <text lang="iw">#אף אקו לא יכול להפוך אתכם לחלוץ, לסייר או #למנהל. היזהרו! מי שמבטיח לכם את זה, הוא# מתחזה שמנסה לרמות אתכם ולקחת מכם #.חפצים או סיסמא</text>
+    </message>    
+  <message id="10" type="1">
+      <text lang="iw">#שכפול פריטים הוא בלתי אפשרי באקולוקו. היזהרו ממי שמציע לכם לשכפל פריטים - הם מנסים לרמות אתכם ולגנוב את הפריטים האלה</text>
+    </message>    
+  <message id="11" type="5">
+      <text lang="iw">#איזה כיף שחזרתם! אנחנו רואים שאתם מתחילים להרגיש בנוח. זה הזמן להכיר את# .המדבר. נסו לגלות כמה מסכים שונים יש בו# זאת שאלה שתופיע בפעילות מנהלים</text>
+    </message>    
+  <message id="12" type="5">
+      <text lang="iw">#כבר אימצתם חיה? כבר ביקרתם בבית שלכם על הירח? לחצו על הכפתורים המתאימים #!בתפריט למטה ותתחילו ליהנות</text>
+    </message>
+  <message id="13" type="5">
+      <text lang="iw">#כבר התחלתם לחשוב להפוך לסיירים? אין #ספק שאתם מתאימים. שרשרת המשימות# מתחילה אצל הית'קליף במשימה בשם#.סיירי אקולוקו</text>
+    </message>                 
+  <message id="14" type="5">
+      <text lang="iw">#איזה כיף לראות אתכם היום#! מקווים שאתם נהנים #.תזכרו גם לעזור לילדים חדשים</text>
+    </message>                 
+  <message id="15" type="5">
+      <text lang="iw">#חלוצי אקולוקו נהנים יותר. עוד נדירים, עוד משחקים, עוד הרפתקאות, עוד מסכים, עוד חיות ועוד צמחים לגדל!!!</text>
+    </message>                 
+  <message id="16" type="5">
+      <text lang="iw">#חלוצים יקרים, מתי ביקרתם בחלל בפעם# האחרונה? המון הרפתקאות ומשחקים# !מגניבים מחכים לכם שם</text>
+    </message>                 
+  <message id="17" type="5">
+      <text lang="iw">#שימו לב! חלוצים באקולוקו נהנים מעוד #נדירים, עוד הרפתקאות, אפשרות להצטרף #.לסיירת וכמובן, עולם ללא פרסומות </text>
+    </message> 
+  <message id="18" type="5">
+      <text lang="iw">!!!תחרות סיירים ומינוי סיירי 2 יוצאת לדרך#הגישו מועמדות עכשיו#!והוכיחו שמגיע לכם#.עוד פרטים בפורום סיירי 1#!בהצלחה</text>
+  </message>                 
+  <message id="19" type="5">
+      <text lang="iw">עוד לא מוניתם למיני מנהל#!!השבוע זה יכול להיות אתם#בכל שבוע נבחר 10 סיירים#!שיקבלו את משחק המיני מנהל החדש#!!!עוד פרטים ומדריך מלא בפורום סיירי 2</text>
+    </message>                 
+  <message id="20" type="5">
+      <text lang="iw">!!! שימו לב#אנחנו ממליצים לכם לא לפרסם את#המייל שלכם בפייסבוק או בכל מקום אחר#.בכדי להימנע מפריצה לשחקן שלכם</text>
+  </message> 
+  <message id="21" type="5">
+    <text lang="iw">?כבר ביקרתם בפורום הסיירים#המון עדכונים, פעילויות, תחרויות ועוד הטבות#!!שרק אתם תוכלו ליהנות מהם#! כנסו כבר עכשיו לפורום סיירי אקולוקו</text> 
+  </message>                 
+  <message id="22" type="5">
+    <text lang="iw">נכנסים לאקולוקו#,בימים חמישי עד שלישי הקרובים#ומקבלים מתנות נדירות#!לכבוד ראש השנה#!ספרו לכולם כדי שיהיה הכי שמח בעולם</text>
+ </message>                 
+  <message id="23" type="5">
+    <text lang="iw">?תמיד חלמתם להיות סיירים בכירים#!!עכשיו אתם יכולים#!!מועמדות לסיירת 2 נפתחה#בדקו בפורום הסיירים שלכם שאתם#עומדים בתנאים ומהרו להגיש מועמדות</text>
+     </message>             
+  <message id="24" type="5">
+    <text lang="iw">,ימים אחרונים של חגיגות פורים באקולוקו#שחקו באירוע הקהילה#אספו כוכבים וזכו במתנות פורימיות #!! חג שמח</text>
+  </message>  
+  <message id="25" type="5">
+    <text lang="iw">!!הופ הופ טרללה- גדלנו בשנה#בואו לחגוג איתנו מידי יום את #,יום ההולדת שלנו עם מתנות#!!משימות והפתעות בכל יום</text>
+ </message>  
+  <message id="26" type="5">
+    <text lang="iw">ביום חמישי ה 12/5# יום עצמאות עם חלוץ במתנה# נתראה באקולוקו</text>
+ </message>  
+  <message id="27" type="5">
+    <text lang="iw">חוגגים יומולדת 68 למדינת ישראל#'עם מתנות יומיות בימים א',ב',ג',ה# וביום העצמאות יום חלוץ לכולם# אל תפספסו#!חג עצמאות שמח</text> 
+ </message>                                                                   
+  </messages>
+  <sessions>    
+    <session minDaysPlayed="3" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="2" minLevel="0" maxLevel="999" premium="2" minIdleTime="5" sessionTime="90">
+  </session>
+    <session minDaysPlayed="3" maxDaysPlayed="9999" minRangerLevel="3" maxRangerLevel="3" minLevel="0" maxLevel="999" premium="2" minIdleTime="5" sessionTime="90">          
+    <message id="21"/> 
+  </session> 
+    <session minDaysPlayed="3" maxDaysPlayed="9999" minRangerLevel="4" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="2" minIdleTime="5" sessionTime="90">             
+    <message id="21"/> 
+  </session>
+  </sessions>          
+  <time_based>
+    <!-- 3-10 non premium-->
+    <message id="20" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="14:33" interval="210" occurences="3"/>
+    <message id="1" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="15:03" interval="210" occurences="3"/>
+    <message id="12" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="15:34" interval="210" occurences="3"/>
+    <message id="8" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="16:01" interval="210" occurences="3"/>
+    <message id="4" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="16:29" interval="210" occurences="3"/>
+    <message id="11" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="17:02" interval="210" occurences="3"/>
+    <message id="17" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="17:32" interval="210" occurences="3"/>
+    <!-- 3-10 premium -->
+    <message id="20" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="14:33" interval="180" occurences="3"/>
+    <message id="2" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="15:03" interval="180" occurences="3"/>
+    <message id="12" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="15:34" interval="180" occurences="3"/>
+    <message id="8" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="16:01" interval="180" occurences="3"/>
+    <message id="4" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="16:29" interval="180" occurences="3"/>
+    <message id="11" minDaysPlayed="3" maxDaysPlayed="10" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="17:02" interval="180" occurences="3"/>
+    <!-- 11-20 non premium-->
+    <message id="20" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="14:33" interval="210" occurences="3"/>
+    <message id="1" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="15:03" interval="210" occurences="3"/>
+    <message id="9" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="15:34" interval="210" occurences="3"/>
+    <message id="13" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="16:01" interval="210" occurences="3"/>
+    <message id="4" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="16:29" interval="210" occurences="3"/>
+    <message id="6" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="17:02" interval="210" occurences="3"/>
+    <message id="17" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="17:32" interval="210" occurences="3"/>
+    <!-- 11-20 premium -->
+    <message id="20" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="14:33" interval="180" occurences="3"/>
+    <message id="1" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="15:03" interval="180" occurences="3"/>
+    <message id="9" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="15:34" interval="180" occurences="3"/>
+    <message id="16" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="16:01" interval="180" occurences="3"/>
+    <message id="4" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="16:29" interval="180" occurences="3"/>
+    <message id="6" minDaysPlayed="11" maxDaysPlayed="20" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="17:02" interval="180" occurences="3"/>
+    <!-- 21-9999 non premium-->
+    <message id="20" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="14:33" interval="210" occurences="3"/>  
+    <message id="1" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="15:03" interval="210" occurences="3"/>
+    <message id="6" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="15:34" interval="210" occurences="3"/>
+    <message id="14" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="16:01" interval="210" occurences="3"/>
+    <message id="4" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="16:29" interval="210" occurences="3"/>
+    <message id="8" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="17:02" interval="210" occurences="3"/>
+    <message id="17" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="0" startTime="17:32" interval="210" occurences="3"/>
+    <!-- 21-9999 premium -->
+    <message id="20" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="14:33" interval="180" occurences="3"/>
+    <message id="3" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="15:03" interval="180" occurences="3"/>
+    <message id="8" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="15:34" interval="180" occurences="3"/>
+    <message id="14" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="16:01" interval="180" occurences="3"/>
+    <message id="1" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="16:29" interval="180" occurences="3"/>
+    <message id="6" minDaysPlayed="21" maxDaysPlayed="9999" minRangerLevel="0" maxRangerLevel="5" minLevel="0" maxLevel="999" premium="1" startTime="17:02" interval="180" occurences="3"/>
+  </time_based>
+</data>

@@ -1,0 +1,46 @@
+<items>
+  <item>
+    <key>newbie_pop_goto_newbie</key>
+    <value>חזור לרשימה</value>
+  </item>
+  <item>
+    <key>newbie_pop_title</key>
+    <value>ברוכים הבאים לאקולוקו</value>
+  </item>
+  <item>
+    <key>newbie_pop_text</key>
+    <value>אקואים חדשים מוזמנים לאחד משרתי האימונים  המסומנים בכובע תלמיד, שם תמצאו הפעלות מיוחדות  טיפים וילדים שיעזרו לכם להסתדר באקולוקו</value>
+  </item>
+  <item>
+    <key>newbie_pop_goto_selected</key>
+    <value>לא תודה</value>
+  </item>
+  <item>
+    <key>no_newbie_pop_close</key>
+    <value>סגור</value>
+  </item>
+  <item>
+    <key>no_newbie_pop_title</key>
+    <value>זהו שרת האימונים</value>
+  </item>
+  <item>
+    <key>no_newbie_pop_text</key>
+    <value>שרת זה מיועד לילדים חדשים באקולוקו</value>
+  </item>
+  <item>
+    <key>premiuim_pop_close_but</key>
+    <value>לא תודה</value>
+  </item>
+  <item>
+    <key>premiuim_pop_store_but</key>
+    <value>חזרה</value>
+  </item>
+  <item>
+    <key>premiuim_pop_title</key>
+    <value>השרת מלא</value>
+  </item>
+  <item>
+    <key>premium_pop_text</key>
+    <value><![CDATA[השרת שבחרתם מלא ונותרו בו מספר קטן של מקומות השמור לחלוצים בלבד. ביחרו בשרת אחר ומהרו להצטרף להרפתקה הגדולה בעולם]]></value>
+  </item>
+</items>

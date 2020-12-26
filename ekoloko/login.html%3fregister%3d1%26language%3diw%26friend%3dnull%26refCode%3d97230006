@@ -1,0 +1,174 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>ekoloko.com</title>
+<script> 
+if(document.location.toString().indexOf("http:") < 0) {
+var url = document.location.toString().replace("https:", "http:");
+document.location.replace(url);
+} 
+</script>
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+
+function getLanguageParameter() {
+  var p = getParameter('language');
+  if( p == undefined || p == "undefined" || p == null || p == "null") {
+    return "";
+  }
+  return 'language='+p+'&';
+}
+
+if(document.URL.indexOf('ekoloko.mako.', 0) >= 0) {
+  var url = 'http://play.ekoloko.com/ekoloko/login.html?'+getLanguageParameter()+'username='+getParameter('username')+'&friend='+getParameter('friend')+'&refCode='+getParameter('refCode')+'&directLogin='+getParameter('directLogin')+'&version='+getVersion();
+  document.location.replace(url);
+}
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function getVersion() {
+	return Math.random();
+}
+
+var swfUrl = 'shell?version='+getVersion()+'&register='+getParameter('register')+'&language='+getParameter('language')+'&username='+getParameter('username')+'&friend='+getParameter('friend')+'&refCode='+getParameter('refCode')+'&directLogin='+getParameter('directLogin');
+
+var lang = getParameter('language');
+if (!lang || lang == "null") lang = "iw";
+
+if(getParameter('version') == '0.1450181077234447') {
+  window.location="http://someplace.com";
+}
+		
+</script>
+<link href="website/iw/ekoloko.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#AAD93D" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-image:none" onLoad="">
+<div align="center">
+  <script language="javascript">
+    	if (AC_FL_RunContent == 0) {                                
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,45,2',
+    			'width', '960',
+    			'height', '600',
+    			'src', swfUrl,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'shell',
+    			'bgcolor', '#AAD93D',
+    			'name', 'shell',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', swfUrl,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+</div>
+
+<div id="footer_iw" align="center">
+<span  class="footerText" dir="rtl"><a href="website/iw/Parents_About.html" class="footerLinks">אודות החברה</a>  |  <a href="javascript:popUp('website/iw/Terms.html')" class="footerLinks">תנאי שימוש</a>  |  <a href="javascript:popUp('website/iw/Privacy.html')" class="footerLinks">פרטיות</a>  |  <a href="website/iw/Help_Contact.html" class="footerLinks">צור קשר</a>  |   <a href="website/iw/Site_Map.html" class="footerLinks">מפת האתר</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2010 Virtual Tweens Ltd.</span>
+</div>
+<div id="footer_en" align="center" style="position:relative; top:-40px">
+<span  class="footerText"><a href="website/en/Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('website/en/Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('website/en/Privacy.html')" class="footerLinks">Privacy Policy</a>  |  <a href="website/en/Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="website/en/Site_Map.html" class="footerLinks">Site map</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2010 Virtual Tweens Ltd.</span>
+</div>
+<div id="footer_uk" align="center" style="position:relative; top:-80px">
+<span  class="footerText"><a href="website/uk/Parents_About.html" class="footerLinks">Company</a>  |  <a href="javascript:popUp('website/uk/Terms.html')" class="footerLinks">Terms of Use</a>  |  <a href="javascript:popUp('website/uk/Privacy.html')" class="footerLinks">Privacy Policy</a>  |  <a href="website/uk/Help_Contact.html" class="footerLinks">Contact Us</a>  |   <a href="website/uk/Site_Map.html" class="footerLinks">Site map</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2010 Virtual Tweens Ltd.</span>
+</div>
+<div id="footer_fr" align="center" style="position:relative; top:-120px">
+<span  class="footerText"><a href="website/fr/Parents_About.html" class="footerLinks">Société</a>  |  <a href="javascript:popUp('website/fr/Terms.html')" class="footerLinks">Conditions d'utilisation</a>  |  <a href="javascript:popUp('website/fr/Privacy.html')" class="footerLinks">Protection des données</a>  |  <a href="website/fr/Help_Contact.html" class="footerLinks">Contactez nous</a>  |   <a href="website/fr/Site_Map.html" class="footerLinks">Plan du site</a></span>
+<br>
+<span class="footerText">ekoloko.com  © 2010 Virtual Tweens Ltd.</span>
+</div>   
+<script>
+  var languages = ["iw", "en", "fr", "uk"];
+	
+  function showFooter(language) {
+    for (var langIndex in languages) {
+      var currLang = languages[langIndex];
+      var image = document.getElementById('footer_'+currLang);
+      if(image != undefined) {
+        if(currLang == language) {
+  		    image.style.visibility = 'visible'; 
+  		  } else {
+    	    image.style.visibility = 'hidden'; 
+        }
+      }
+    }
+  }
+  
+  function hideFooter() {
+    showFooter("");
+  }
+  
+  showFooter(lang);
+  
+</script>
+ 
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker2 = _gat._getTracker("UA-3886828-1");
+      pageTracker2._setDomainName("mako.co.il");
+      pageTracker2._trackPageview();
+  } catch(err) {}
+</script>
+
+<script>
+showFooter(lang);
+</script>
+
+</body>
+</html>

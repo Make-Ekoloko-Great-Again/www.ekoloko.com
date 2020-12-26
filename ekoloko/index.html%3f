@@ -1,0 +1,80 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>ekoloko.com</title>
+<script> 
+if(document.location.toString().indexOf("http:") < 0) {
+var url = document.location.toString().replace("https:", "http:");
+document.location.replace(url);
+} 
+</script>
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+//Direct page to:
+var url = 'http://play.ekoloko.com/ekoloko/login.html';
+
+function getParameter ( parameterName ) {
+  var queryString = window.location.search
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    begin = queryString.indexOf ( parameterName );
+    if ( begin != -1 ) {
+      begin += parameterName.length;
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    return "null";
+  }
+}
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function getVersion() {
+	return Math.random();
+}
+
+function addUrlParam(pName, url) {
+  var pValue = getParameter(pName);
+  if(!( pValue == undefined || pValue == "undefined" || pValue == null || pValue == "null") ) {
+    url += (url.indexOf('?')<0?"?":"&")+pName+'='+pValue;
+  }
+  return url;
+}
+
+url = addUrlParam("language", url);       
+url = addUrlParam("username", url);       
+url = addUrlParam("friend", url);       
+url = addUrlParam("refCode", url);       
+url = addUrlParam("directLogin", url);         
+</script>
+ 
+<body bgcolor="#AAD93D" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-image:none" onLoad="">
+
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  
+  } catch(err) {}
+</script>
+
+
+<script>
+document.write("<META HTTP-EQUIV=\"Refresh\" CONTENT=\"0; URL="+url+"\">");       
+</script>
+
+</body>
+</html>

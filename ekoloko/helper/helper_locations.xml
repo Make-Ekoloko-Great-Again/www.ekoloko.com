@@ -1,0 +1,45 @@
+<data>
+
+  <recycle_bin_type name="Glass"  type="1" roomId="109"/>
+  <recycle_bin_type name="Metal"  type="2" roomId="205"/>
+  <recycle_bin_type name="Paper"  type="4" roomId="114"/>
+  <recycle_bin_type name="Plastic"  type="8" roomId="102"/>
+  <recycle_bin_type name="Batteries"  type="16" roomId="108"/>
+ 
+    
+  <in_world_game name="Basketball" id="1002" roomId="107"/>
+  <in_world_game name="Darts1" id="1003" roomId="112"/>
+  <in_world_game name="Darts2" id="1004" roomId="203"/>
+  <in_world_game name="Basketball MP" id="1005" roomId="502"/>
+  <in_world_game name="Darts MP2" id="1006" roomId="514"/>
+  <in_world_game name="Basketball MP2" id="1007" roomId="512"/>
+  
+  <quiz name="Samra computer" id="3006" roomId="111"/>
+  <quiz name="Pioneers quiz" id="3017" roomId="116"/>
+  
+  <store name="Mama Collette`s" id="1" roomId="113"/>
+  <store name="Head2Tow" id="2" roomId="213"/>
+  <store name="Merchandise " id="3" roomId="202"/>
+  <store name="skates" id="4" roomId="106"/>
+  <store name="Captain Surf board " id="5" roomId="104"/>
+  <store name="Scalps" id="6" roomId="216"/>
+  <store name="Hovering graveyard " id="7" roomId="206"/>
+  <store name="Out of this world" id="8" roomId="317"/>
+  <store name="The Flying Carpet" id="9" roomId="209"/>
+  <store name="Boutique O`Loko " id="10" roomId="201"/>
+  <store name="Pre-historic Store" id="11" roomId="402"/>
+  <store name="Support People HQ" id="12" roomId="113"/>
+  <store name="Support Env. HQ" id="13" roomId="103"/>
+  <store name="Support Animals HQ" id="14" roomId="111"/>
+  <store name="Ekoloplis Fashion" id="15" roomId="701"/>
+  <store name="The Theatre Shop" id="16" roomId="702"/>
+     
+
+  <potionStore name="Massaimara" id="1" roomId="110"/>
+  
+  <animalStore name="Dr. G" id="10" roomId="108"/>
+  <animalStore name="Charles" id="11" roomId="109"/>
+  <animalStore name="Dino" id="20" roomId="403"/>
+  
+    
+</data>

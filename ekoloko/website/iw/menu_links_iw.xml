@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<countrySelector enabled="1" />
+	<links>
+		<link_parents>Parents_About.html</link_parents>
+		<link_pioneers>Pioneers_Become.html</link_pioneers>
+		<link_fun>Fun_Clip.html</link_fun>
+		<link_help>Help_FAQ.html</link_help>
+		<link_toolbar>toolbarRedirect.html</link_toolbar>
+	</links>
+	<subLinks>
+		<Parents>
+			<link>Parents_About.html</link>
+			<link>Parents_Safety.html</link>
+			<link>Parents_Rules.html</link>
+			<link>Parents_FAQ.html</link>
+			<link>Parents_Pioneers.html</link>
+			<link>Parent_Contact.html</link>
+		</Parents>
+		<Pioneers>
+			<link>Pioneers_Become.html</link>
+			<link>Pioneers.html</link>
+			<link>Pioneers_Benefits.html</link>
+			<link>Pioneers_FAQ.html</link>
+		</Pioneers>
+		<Fun>
+			<link>Fun_Clip.html</link>
+			<link>Fun_Studio.html</link>
+			<link>Fun_NewYear.html</link>
+			<link>Fun_Downloads.html</link>
+			<link>Newspaper.html</link>
+		</Fun>
+		<Help>
+			<link>Help_FAQ.html</link>
+			<link>Help_Moon_FAQ.html</link>
+			<link>Help_Garden_FAQ.html</link>
+			<link>Help_Album.html</link>
+			<link>Help_Technical.html</link>
+			<link>Help_Pioneers.html</link>
+			<link>Help_Store_FAQ.html</link>
+			<link>Help_Tutorial.html</link>
+			<link>Help_Contact.html</link>
+		</Help>
+		<Info>
+			<link>Info_Plants.html</link>
+			<link>Info_Dinos.html</link>
+			<link>Info_Birds.html</link>
+			<link>Info_Mammals.html</link>
+			<link>Info_Legendary.html</link>
+		</Info>
+	</subLinks>
+</data>

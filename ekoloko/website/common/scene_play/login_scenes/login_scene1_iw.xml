@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<flow avatar="boy1">
+		<command name="add2stage" x="1100" y="200" />
+		<command name="wait" seconds="1" />
+		<command name="place" x="225" y="580" rotation="-20" scale="1.4" />
+		<command name="popin" seconds="1" range="60" />
+		<command name="wait" seconds="2" />
+		<command name="popout" seconds="0.7" range="130" />
+	</flow>
+	<flow avatar="girl1">
+		<command name="add2stage" x="1100" y="200" />
+		<command name="wait" seconds="2" />
+		<command name="place" x="300" y="580" rotation="-5" scale="1.4" />
+		<command name="popin" seconds="1" range="60" />
+		<command name="wait" seconds="2" />
+		<command name="popout" seconds="0.7" range="130" />
+	</flow>
+	<flow avatar="boy2">
+		<command name="add2stage" x="1100" y="200" />
+		<command name="wait" seconds="3" />
+		<command name="place" x="375" y="580" rotation="0" scale="1.4" />
+		<command name="popin" seconds="1" range="60" />
+		<command name="wait" seconds="2" />
+		<command name="popout" seconds="0.7" range="130" />
+	</flow>
+	<flow avatar="girl2">
+		<command name="add2stage" x="1100" y="200" />
+		<command name="wait" seconds="4" />
+		<command name="place" x="450" y="580" rotation="5" scale="1.4" />
+		<command name="popin" seconds="1" range="60" />
+		<command name="wait" seconds="2" />
+		<command name="popout" seconds="0.7" range="130" />
+		<command name="wait" seconds="2" />
+	</flow>
+</data>

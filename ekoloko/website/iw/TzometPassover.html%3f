@@ -1,0 +1,244 @@
+﻿<html>
+<head>
+<title>ekoloko.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" type="text/javascript">
+function getParameter ( parameterName ) {
+  var queryString = window.top.location.search
+  // Add "=" to the parameter name (i.e. parameterName=value)
+  var parameterName = parameterName + "=";
+  if ( queryString.length > 0 ) {
+    // Find the beginning of the string
+    begin = queryString.indexOf ( parameterName );
+    // If the parameter name is not found, skip it, otherwise return the value
+    if ( begin != -1 ) {
+      // Add the length (integer) to the beginning
+      begin += parameterName.length;
+      // Multiple parameters are separated by the "&" sign
+      end = queryString.indexOf ( "&" , begin );
+      if ( end == -1 ) {
+        end = queryString.length
+      }
+    // Return the string
+    return unescape ( queryString.substring ( begin, end ) );
+    }
+    // Return "null" if no parameter has been found
+    return "null";
+  }
+}
+var menuSwf = "subPage_menu?page=0&language=iw"//+getParameter('language');
+var btnSwf = "../common/images/TubishvatNedirimButton?username="+getParameter('username');
+
+function popUp(URL) {
+	window.open(URL, 'ekoloko', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=960,height=800')
+}
+
+function changeImage(img1, img2) {
+	document.images[img1].src='../common/images/'+img2+'.jpg';
+}
+</script>
+
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="ekoloko.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {color: #990000}
+-->
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="1200" height="601" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td>
+	<img src="../common/images/header_left.jpg" width="93" height="154" alt=""></td>
+        <td colspan="3">
+        <script language="javascript">
+    	if (AC_FL_RunContent == 0) {
+    		alert("This page requires AC_RunActiveContent.js.");
+    	} else {
+    		AC_FL_RunContent(
+    			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0',
+    			'width', '960',
+    			'height', '154',
+    			'src', menuSwf,
+    			'quality', 'high',
+    			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+    			'align', 'middle',
+    			'play', 'true',
+    			'loop', 'true',
+    			'scale', 'showall',
+    			'wmode', 'gpu',
+    			'devicefont', 'false',
+    			'id', 'Menu',
+    			'bgcolor', '#abd93f',
+    			'name', 'Menu',
+    			'menu', 'true',
+    			'allowFullScreen', 'true',
+    			'allowScriptAccess','sameDomain',
+    			'movie', menuSwf,
+    			'salign', ''
+    			); //end AC code
+    	}
+      </script>
+    </td>
+	<td>
+	<img src="../common/images/header_right.jpg" width="147" height="154" alt=""></td>
+  </tr>
+	<tr>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_left.jpg" alt="" width="143" height="447"></td>
+  <td valign="top" background="../common/images/tileable_iw.jpg">
+  <div style="background-image:url(../common/images/main_iw.jpg); background-repeat:no-repeat; height:auto;">
+            <table width="810" border="0" cellspacing="0" cellpadding="0" style="margin-left:50px;">
+              <tr>
+                <td align="center" valign="top" dir="rtl">
+                <img src="../common/images/TzometPassoverTitle.png" width="564" height="79">
+<table width="100%" border="0">
+  <tr>
+    <td align="center">
+        <span class="Title">
+בחופשת הפסח הקרבה,<br>
+תבקר העוזרת של מסאימארה בסניפי צומת ספרים,<br>
+ותחלק פרסים נדירים לאקואים שיבואו לפגוש אותה!<br>
+רוצים לדעת מתי היא מגיעה לחנות הקרובה אליכם?<br>
+הציצו כאן למטה ברשימה!
+</span>
+    </td>
+     <td align="left" valign="top"><img src="../common/images/shamen_info.png" width="253" height="287"></td>
+  </tr>
+</table>
+<table width="100%" border="2" cellpadding="3" bgcolor="#E5E7D2" style="border-style:none;">
+  <tr>
+    <td align="center"><span class="Title"><u>תאריך</u></span></td>
+    <td align="center"><span class="Title"><u>מקום ושעה</u></span></td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">26.03.12</td>
+    <td align="center" class="FAQTitle">קניון חולון 13:00-16:00 | קניון בת ים 17:00-20:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">27.03.12</td>
+    <td align="center" class="FAQTitle">קניון עזריאלי ת"א 17:00-19:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">28.03.12</td>
+    <td align="center" class="FAQTitle">קניון גראנד חיפה 17:00-19:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">29.03.12</td>
+    <td align="center" class="FAQTitle">עיר הימים נתניה 15:00-18:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">01.04.12</td>
+    <td align="center" class="FAQTitle">קניון שבעת הכוכבים, הרצליה 16:30-19:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">02.04.12</td>
+    <td align="center" class="FAQTitle">קניון הגדול פ"ת 16:30-19:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">03.04.12</td>
+    <td align="center" class="FAQTitle">קניון רננים, רעננה 16:30-19:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">04.04.12</td>
+    <td align="center" class="FAQTitle">צומת סילבר אשקלון 14:00-17:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">05.04.12 </td>
+    <td align="center" class="FAQTitle">קניון מלחה ירושלים 12:00-15:00 | קניון עזריאלי מודיעין 16:00-18:30</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">07.04.12 </td>
+    <td align="center" class="FAQTitle">געש 13:00-15:30</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">08.04.12</td>
+    <td align="center" class="FAQTitle">קניון גבעתיים 12:00-16:00 | קניון איילון ר"ג, 17:00-20:00</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">09.04.12</td>
+    <td align="center" class="FAQTitle"> קניון הזהב ראשל"צ 12:00-15:00 | G2 ראשל"צ 15:30-17:30</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">10.04.12</td>
+    <td align="center" class="FAQTitle">קניון סינמול אשדוד 13:00-15:30</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">11.04.12 </td>
+    <td align="center" class="FAQTitle">קניון הנגב ב"ש 15:00-18:30</td>
+  </tr>
+  <tr>
+    <td align="center" class="FAQTitle">12.04.12 </td>
+    <td align="center" class="FAQTitle">קניון קריון, קרית ביאליק 12:00-14:30 <span class="style1">(השעה עודכנה)</span></td>
+  </tr>
+</table>
+               
+                  
+                  <br><br/><br/><br/>
+                </td>
+<td width="230" valign="top" align="center">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="../common/images/TzometLogo.jpg">
+                    </td>
+              </tr>
+            </table>
+   
+      </div> </td>
+	  <td colspan="2" valign="top" style="background-repeat:no-repeat">
+	  <img src="../common/images/back_right.jpg" alt="" width="197" height="447"></td>
+  </tr>
+	<tr>
+    <td colspan="5" align="center">
+      <img src="../common/images/footer_iw.jpg" style="position:relative; left:-26px"> 
+      <br>
+      <span  class="footerText" style="position:relative; left:-26px;"><a href="Parents_About.html" class="footerLinks">אודות החברה</a>  |  <a href="javascript:popUp('Terms.html')" class="footerLinks">תנאי שימוש</a>  |  <a href="javascript:popUp('Privacy.html')" class="footerLinks">פרטיות</a>  |  <a href="Help_Contact.html" class="footerLinks">צור קשר</a>  |   <a href="Site_Map.html" class="footerLinks">מפת האתר</a></span>
+      <br>
+      <span class="footerText">ekoloko.com © 2011 virtual tweens Ltd.</span></td>
+  </tr>
+    <tr>
+		<td>
+			<img src="../common/images/spacer.gif" width="93" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="860" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="../common/images/spacer.gif" width="147" height="1" alt=""></td>
+	</tr>
+</table>
+</body>
+<script type="text/javascript"> 
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker = _gat._getTracker("UA-4992646-7");
+    	pageTracker._setDomainName(".ekoloko.com");
+    	pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+
+<script type="text/javascript"> 
+  try{ 
+    	var pageTracker2 = _gat._getTracker("UA-3886828-1");
+      pageTracker2._setDomainName("mako.co.il");
+      pageTracker2._trackPageview();
+  } catch(err) {}
+</script>
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<flow avatar="boy1">
+		<command name="add2stage" x="596" y="418" />
+		<command name="mimic" face="normal" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="2" />
+		<command name="walk" seconds="1" x="596" y="438"  />
+		<command name="talk" seconds="6" msg="Welcome to ekoloko" />
+		<command name="wait" seconds="4" />
+		<command name="walk" seconds="0.5" x="596" y="418" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="12" />
+		<command name="wear" type="13" ordinal="80107" />
+		<command name="talk" seconds="2" msg="Me" />
+		<command name="wait" seconds="6" />
+		<command name="face" dir="NE" />
+		<command name="wait" seconds="10" />
+		<command name="walk" seconds="3" x="1000" y="400" />
+		<command name="place" x="1200" y="0" />
+	</flow>
+	<flow avatar="girl1">
+		<command name="add2stage" x="470" y="390" />
+		<command name="mimic" face="normal" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="5" />
+		<command name="walk" seconds="0.5" x="470" y="410" />
+		<command name="talk" seconds="6" msg="A world of friends" />
+		<command name="wait" seconds="5" />
+		<command name="walk" seconds="1" x="470" y="390" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="5" />
+		<command name="talk" seconds="5" msg="Who wants to fly to Ekoluna with me?" />
+		<command name="wait" seconds="1" />
+		<command name="wear" type="13" ordinal="80107" />
+		<command name="wait" seconds="7" />
+		<command name="face" dir="E" />
+		<command name="wait" seconds="13" />
+		<command name="walk" seconds="2" x="470" y="450" endScale="1.2" />
+		<command name="wear" type="13" oridinal="90102" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="1" />
+		<command name="talk" seconds="5" msg="ekoloko game on" />
+		<command name="wait" seconds="1" />
+		<command name="mimic" face="normal" />
+		<command name="wait" seconds="5" />
+		<command name="walk" seconds="2" x="1000" y="420" />
+		<command name="place" x="1200" y="0" />
+		<command name="wait" seconds="2" />
+	</flow>
+	<flow avatar="boy2">
+		<command name="add2stage" x="356" y="391" />
+		<command name="mimic" face="normal" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="7" />
+		<command name="walk" seconds="0.5" x="356" y="410"  />
+		<command name="talk" seconds="4" msg="Fun" />
+		<command name="wait" seconds="3" />
+		<command name="walk" seconds="1" x="356" y="391" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="8.5" />
+		<command name="wear" type="13" ordinal="80107" />
+		<command name="talk" seconds="2" msg="Me" />
+		<command name="wait" seconds="5" />
+		<command name="face" dir="E" />
+		<command name="wait" seconds="10" />
+		<command name="walk" seconds="3" x="1000" y="391"  />
+		<command name="place" x="1200" y="0" />
+	</flow>
+	<flow avatar="girl2">
+		<command name="add2stage" x="262" y="432" />
+		<command name="mimic" face="normal" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="9" />
+		<command name="walk" seconds="0.5" x="262" y="450"/>
+		<command name="talk" seconds="4" msg="And Adventures" />
+		<command name="wait" seconds="5" />
+		<command name="walk" seconds="1" x="262" y="432" />
+		<command name="face" dir="S" />
+		<command name="wait" seconds="6" />
+		<command name="wear" type="13" ordinal="80107" />
+		<command name="talk" seconds="2" msg="Me" />
+		<command name="wait" seconds="4" />
+		<command name="face" dir="E" />
+		<command name="wait" seconds="10" />
+		<command name="walk" seconds="4" x="1000" y="432" />
+		<command name="place" x="1200" y="0" />
+	</flow>
+	<flow avatar="boy3">
+		<command name="add2stage" x="1000" y="410" />
+		<command name="mimic" face="normal" />
+		<command name="wait" seconds="23" />
+		<command name="walk" x="540" y="375" seconds="3" />
+		<command name="face" dir="SW" />
+		<command name="talk" seconds="3" msg="Hold on" />
+		<command name="wait" seconds="3" />
+		<command name="talk" seconds="4" msg="we are needed in the secret room" />
+		<command name="wait" seconds="3.5" />
+		<command name="talk" seconds="3" msg="Let’s go" />
+		<command name="wait" seconds="2" />
+		<command name="walk" seconds="2" x="1000" y="410" />
+		<command name="place" x="1200" y="0" />
+	</flow>
+</data>

@@ -1,0 +1,25 @@
+<help_popup>
+  <levels>      
+    <level id="system_msg">
+    </level>       
+    <level id="beginners" maxDays="3">
+      <room id="113" src="./help_popup/swfs/tip_store01_113.swf"/>  
+      <room id="101" src="./help_popup/swfs/tip_tutorial_101.swf"/>
+      <room id="114" src="./help_popup/swfs/tip_garbage_102.swf"/>
+      <room id="105" src="./help_popup/swfs/tip_house.swf"/>         
+      <room id="107" src="./help_popup/swfs/tip_basketball_107.swf"/>
+      <room id="108" src="./help_popup/swfs/tip_animal.swf"/>
+      <room id="109" src="./help_popup/swfs/tip_animal.swf"/>
+    </level>
+    <level id="intermidiate" maxDays="5">
+      <room id="104" src="./help_popup/swfs/tip_house.swf"/>
+      <room id="108" src="./help_popup/swfs/tip_animal.swf"/>
+      <room id="109" src="./help_popup/swfs/tip_animal.swf"/>
+         
+    </level>     
+    <level id="seniors" maxDays="9999">
+         <room id="102" src="./help_popup/swfs/tip_album.swf"/> 
+    </level>
+
+  </levels>  
+</help_popup>
