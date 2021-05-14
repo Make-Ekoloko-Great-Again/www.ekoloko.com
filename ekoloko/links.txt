@@ -1,1 +1,1 @@
-&linkToLogin=http://play.ekoloko.com/ekoloko/index.html&SERVER_URL=http://data.ekoloko.com&SUBMIT_URL=/ekoloko-web/register.action&USERNAME_VALIDATION_URL=/ekoloko-web/username.action&WEB_APP=/ekoloko-web/&musicLink=sound/web/
+&linkToLogin=http://play.ekoloko.cf/ekoloko/index.html&SERVER_URL=http://data.ekoloko.cf&SUBMIT_URL=/ekoloko-web/register.action&USERNAME_VALIDATION_URL=/ekoloko-web/username.action&WEB_APP=/ekoloko-web/&musicLink=sound/web/
